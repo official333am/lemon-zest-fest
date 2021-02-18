@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href 'https://official333am.github.io/lemon-zest-fest/'",
+    "build": "ng build --prod --base-href 'http://lemonzestfest.com/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
