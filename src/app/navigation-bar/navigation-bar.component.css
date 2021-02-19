@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   margin-top: 56px;
-  -webkit-transform: translate3d(0, 0, 0) !important;
+  -webkit-overflow-scrolling: touch !important;
 }
   
 /* The progress bar (scroll indicator) */
@@ -20,7 +20,8 @@
   height: 4px;
   background: black;
   width: 0%;
-  -webkit-transform: translate3d(0, 0, 0) !important;
+  -webkit-overflow-scrolling: touch !important;
+  
 }
 
 .sticky {
