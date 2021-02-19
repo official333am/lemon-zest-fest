@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: "URW Casablanca W01 Light";
-    src: local("URW Casablanca W01 Light"), url("//db.onlinewebfonts.com/t/6fbff13695ad1beb56a7284a56bc6a15.ttf") format("truetype");
+    font-family: "Casablanca URW Light";
+    src: local("Casablanca URW Light"), url(./assets/fonts/Casablanca-URW-Light/Casablanca-URW-Light.ttf) format("truetype");
 }
 
 a, h1 {
@@ -15,6 +15,6 @@ a, h1 {
 }
 
 p {
-    font-family: "URW Casablanca W01 Light";
+    font-family: "Casablanca URW Light";
     color: #2D2929 !important;
 }
