@@ -9,3 +9,7 @@ img {
   width: fit-content;
   margin: auto;
 }
+
+.mt-6 {
+  margin-top: 5rem!important;
+}
