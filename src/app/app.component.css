@@ -13,3 +13,7 @@ img {
 .mt-6 {
   margin-top: 5rem!important;
 }
+
+.container {
+  -webkit-transform: translate3d(0, 0, 0) !important;
+}
