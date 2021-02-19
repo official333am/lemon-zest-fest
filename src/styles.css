@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Blakely Bold";
+    src: local("Blakely Bold"), url(./assets/fonts/Blakely/Blakely-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "URW Casablanca W01 Light";
+    src: local("URW Casablanca W01 Light"), url("//db.onlinewebfonts.com/t/6fbff13695ad1beb56a7284a56bc6a15.ttf") format("truetype");
+}
+
+a, h1 {
+    font-family: "Blakely Bold";
+    color: #2D2929 !important;
+}
+
+p {
+    font-family: "URW Casablanca W01 Light";
+    color: #2D2929 !important;
+}
