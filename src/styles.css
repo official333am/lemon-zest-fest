@@ -18,3 +18,8 @@ p {
     font-family: "Casablanca URW Light";
     color: #2D2929 !important;
 }
+
+.full-img {
+    width: 100%;
+    height: auto;
+}
