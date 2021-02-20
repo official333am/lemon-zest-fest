@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h1>About</h1>\r\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\r\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\r\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\r\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\r\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\r\n        and mostly restricted to contexts like that used in criticism.</p>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -63,7 +63,7 @@ module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>contact works!</p>\n"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Contact</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -85,7 +85,7 @@ module.exports = "<!-- <img src=\"./../assets/images/logos/original-logo.jpeg\" 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\" routerLink=\"/\">\n    <img src=\"./../../assets/icons/lemonzestfest-favicon.ico\" width=\"32\" height=\"32\" alt=\"\"> Lemon Zest Festival\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" href=\"#\">Sponsors</a>\n      <a class=\"nav-item nav-link\" href=\"#\">About</a>\n      <a class=\"nav-item nav-link\" href=\"#\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>"
+module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\" routerLink=\"/\">\n    <img src=\"./../../assets/icons/lemonzestfest-favicon.ico\" width=\"32\" height=\"32\" alt=\"\"> Lemon Zest Festival\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>"
 
 /***/ }),
 
@@ -96,7 +96,7 @@ module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>sponsors works!</p>\n"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Sponsors</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -157,16 +157,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
 
 
  // CLI imports router
 
 
+
+
+
 var routes = [
-    { path: 'artists', component: _artists_artists_component__WEBPACK_IMPORTED_MODULE_3__["ArtistsComponent"] },
-    { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"] },
+    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
+    { path: 'artists', component: _artists_artists_component__WEBPACK_IMPORTED_MODULE_4__["ArtistsComponent"] },
+    { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"] },
+    { path: 'sponsors', component: _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_7__["SponsorsComponent"] },
+    { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },
 ];
 // configures NgModule imports and exports
 var AppRoutingModule = /** @class */ (function () {
@@ -192,7 +201,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".nav-bar-margin {\r\n  margin-top: 8rem!important;\r\n}\r\n\r\n.no-scroll {\r\n  background-color: #eee;\r\n  width: 200px;\r\n  height: 100px;\r\n  border: 1px dotted black;\r\n  overflow-y: scroll; /* Add the ability to scroll */\r\n}\r\n\r\n/* Hide scrollbar for Chrome, Safari and Opera */\r\n\r\n.no-scroll::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n/* Hide scrollbar for IE, Edge and Firefox */\r\n\r\n.no-scroll {\r\n  -ms-overflow-style: none;  /* IE and Edge */\r\n  scrollbar-width: none;  /* Firefox */\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLGFBQWE7RUFDYix3QkFBd0I7RUFDeEIsa0JBQWtCLEVBQUUsOEJBQThCO0FBQ3BEOztBQUVBLGdEQUFnRDs7QUFDaEQ7SUFDSSxhQUFhO0FBQ2pCOztBQUVBLDRDQUE0Qzs7QUFDNUM7RUFDRSx3QkFBd0IsR0FBRyxnQkFBZ0I7RUFDM0MscUJBQXFCLEdBQUcsWUFBWTtBQUN0QyIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdi1iYXItbWFyZ2luIHtcclxuICBtYXJnaW4tdG9wOiA4cmVtIWltcG9ydGFudDtcclxufVxyXG5cclxuLm5vLXNjcm9sbCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcclxuICB3aWR0aDogMjAwcHg7XHJcbiAgaGVpZ2h0OiAxMDBweDtcclxuICBib3JkZXI6IDFweCBkb3R0ZWQgYmxhY2s7XHJcbiAgb3ZlcmZsb3cteTogc2Nyb2xsOyAvKiBBZGQgdGhlIGFiaWxpdHkgdG8gc2Nyb2xsICovXHJcbn1cclxuXHJcbi8qIEhpZGUgc2Nyb2xsYmFyIGZvciBDaHJvbWUsIFNhZmFyaSBhbmQgT3BlcmEgKi9cclxuLm5vLXNjcm9sbDo6LXdlYmtpdC1zY3JvbGxiYXIge1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxufVxyXG5cclxuLyogSGlkZSBzY3JvbGxiYXIgZm9yIElFLCBFZGdlIGFuZCBGaXJlZm94ICovXHJcbi5uby1zY3JvbGwge1xyXG4gIC1tcy1vdmVyZmxvdy1zdHlsZTogbm9uZTsgIC8qIElFIGFuZCBFZGdlICovXHJcbiAgc2Nyb2xsYmFyLXdpZHRoOiBub25lOyAgLyogRmlyZWZveCAqL1xyXG59Il19 */"
+module.exports = ".nav-bar-margin {\r\n  margin-top: 8rem!important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEI7QUFDNUIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5uYXYtYmFyLW1hcmdpbiB7XHJcbiAgbWFyZ2luLXRvcDogOHJlbSFpbXBvcnRhbnQ7XHJcbn0iXX0= */"
 
 /***/ }),
 
