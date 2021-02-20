@@ -6,9 +6,6 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public title = 'lemon-zest-fest';
-  public 
-
   @HostListener("window:scroll", ['$event'])
   scrollMe(event) {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

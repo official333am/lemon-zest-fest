@@ -23,6 +23,17 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/about/about.component.html":
+/*!**********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/about/about.component.html ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
 /*!**************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
@@ -30,7 +41,40 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navigation-bar>\n</app-navigation-bar>\n<img class=\"mt-6\" src=\"./../assets/images/logos/original-logo.jpeg\" alt=\"Sana's Logo\">\n<div class=\"container mt-5\" (scroll)=\"scrollMe($event)\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>History</h1>\n      <p>The origin of the lemon is unknown, though lemons are thought to have first grown in Assam (a region in northeast India),\n        northern Burma or China.[2] A genomic study of the lemon indicated it was a hybrid between bitter orange (sour orange)\n        and citron.[3][4] Lemons entered Europe near southern Italy no later than the second century AD, during the time\n        of Ancient Rome.[2] However, they were not widely cultivated. They were later introduced to Persia and then to Iraq\n        and Egypt around 700 AD.[2] The lemon was first recorded in literature in a 10th-century Arabic treatise on farming,\n        and was also used as an ornamental plant in early Islamic gardens.[2] It was distributed widely throughout the Arab\n        world and the Mediterranean region between 1000 and 1150.[2] An article on Lemon and lime tree cultivation in Andalusia\n        of Spain is brought down in Ibn al-'Awwam's 12th-century agricultural work, Book on Agriculture.[5] The first substantial\n        cultivation of lemons in Europe began in Genoa in the middle of the 15th century. The lemon was later introduced\n        to the Americas in 1493 when Christopher Columbus brought lemon seeds to Hispaniola on his voyages. Spanish conquest\n        throughout the New World helped spread lemon seeds. It was mainly used as an ornamental plant and for medicine.[2]\n        In the 19th century, lemons were increasingly planted in Florida and California.[2] In 1747, James Lind's experiments\n        on seamen suffering from scurvy involved adding lemon juice to their diets, though vitamin C was not yet known as\n        an important dietary ingredient.[2][6] The origin of the word lemon may be Middle Eastern.[2] The word draws from\n        the Old French limon, then Italian limone, from the Arabic laymūn or līmūn, and from the Persian līmūn, a generic\n        term for citrus fruit, which is a cognate of Sanskrit (nimbū, “lime”).[7]</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Varieties</h1>\n      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]\n        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'\n        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is\n        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and\n        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket\n        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice\n        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is\n        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian\n        cultivar.[16]\n      </p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Nutrition and phytochemicals</h1>\n      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential\n        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]\n        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit\n        juice, and about five times the amount of citric acid found in orange juice.[18]</p>\n    </div>\n  </div>\n</div>"
+module.exports = "<app-navigation-bar></app-navigation-bar>\r\n<div class=\"nav-bar-margin\"></div>\r\n<router-outlet></router-outlet>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/artists/artists.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/artists/artists.component.html ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h1>Artists</h1>\r\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\r\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\r\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\r\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\r\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\r\n        and mostly restricted to contexts like that used in criticism.</p>\r\n    </div>\r\n  </div>\r\n</div>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/contact/contact.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/contact/contact.component.html ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>contact works!</p>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/home/home.component.html":
+/*!********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/home/home.component.html ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- <img src=\"./../assets/images/logos/original-logo.jpeg\" alt=\"Sana's Logo\"> -->\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>History</h1>\n      <p>The origin of the lemon is unknown, though lemons are thought to have first grown in Assam (a region in northeast India),\n        northern Burma or China.[2] A genomic study of the lemon indicated it was a hybrid between bitter orange (sour orange)\n        and citron.[3][4] Lemons entered Europe near southern Italy no later than the second century AD, during the time\n        of Ancient Rome.[2] However, they were not widely cultivated. They were later introduced to Persia and then to Iraq\n        and Egypt around 700 AD.[2] The lemon was first recorded in literature in a 10th-century Arabic treatise on farming,\n        and was also used as an ornamental plant in early Islamic gardens.[2] It was distributed widely throughout the Arab\n        world and the Mediterranean region between 1000 and 1150.[2] An article on Lemon and lime tree cultivation in Andalusia\n        of Spain is brought down in Ibn al-'Awwam's 12th-century agricultural work, Book on Agriculture.[5] The first substantial\n        cultivation of lemons in Europe began in Genoa in the middle of the 15th century. The lemon was later introduced\n        to the Americas in 1493 when Christopher Columbus brought lemon seeds to Hispaniola on his voyages. Spanish conquest\n        throughout the New World helped spread lemon seeds. It was mainly used as an ornamental plant and for medicine.[2]\n        In the 19th century, lemons were increasingly planted in Florida and California.[2] In 1747, James Lind's experiments\n        on seamen suffering from scurvy involved adding lemon juice to their diets, though vitamin C was not yet known as\n        an important dietary ingredient.[2][6] The origin of the word lemon may be Middle Eastern.[2] The word draws from\n        the Old French limon, then Italian limone, from the Arabic laymūn or līmūn, and from the Persian līmūn, a generic\n        term for citrus fruit, which is a cognate of Sanskrit (nimbū, “lime”).[7]</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Varieties</h1>\n      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]\n        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'\n        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is\n        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and\n        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket\n        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice\n        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is\n        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian\n        cultivar.[16]\n      </p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Nutrition and phytochemicals</h1>\n      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential\n        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]\n        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit\n        juice, and about five times the amount of citric acid found in orange juice.[18]</p>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -41,7 +85,98 @@ module.exports = "<app-navigation-bar>\n</app-navigation-bar>\n<img class=\"mt-6
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\" href=\"#\">\n    <img src=\"./../../assets/icons/lemonzestfest-favicon.ico\" width=\"32\" height=\"32\" alt=\"\"> Lemon Zest Festival\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n      <a class=\"nav-item nav-link\" href=\"#\">Artists</a>\n      <a class=\"nav-item nav-link\" href=\"#\">Sponsors</a>\n      <a class=\"nav-item nav-link\" href=\"#\">About</a>\n      <a class=\"nav-item nav-link\" href=\"#\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>"
+module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\" routerLink=\"/\">\n    <img src=\"./../../assets/icons/lemonzestfest-favicon.ico\" width=\"32\" height=\"32\" alt=\"\"> Lemon Zest Festival\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" href=\"#\">Sponsors</a>\n      <a class=\"nav-item nav-link\" href=\"#\">About</a>\n      <a class=\"nav-item nav-link\" href=\"#\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/sponsors/sponsors.component.html":
+/*!****************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/sponsors/sponsors.component.html ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>sponsors works!</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.css":
+/*!*******************************************!*\
+  !*** ./src/app/about/about.component.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/about/about.component.ts ***!
+  \******************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AboutComponent = class AboutComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-about',
+        template: __webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about.component.html"),
+        styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/about/about.component.css")]
+    })
+], AboutComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+
+
+ // CLI imports router
+
+
+const routes = [
+    { path: 'artists', component: _artists_artists_component__WEBPACK_IMPORTED_MODULE_3__["ArtistsComponent"] },
+    { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"] },
+];
+// configures NgModule imports and exports
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })
+], AppRoutingModule);
+
+
 
 /***/ }),
 
@@ -52,7 +187,7 @@ module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "img {\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 25%;\r\n}\r\n\r\n.center {\r\n  width: -webkit-fit-content;\r\n  width: -moz-fit-content;\r\n  width: fit-content;\r\n  margin: auto;\r\n}\r\n\r\n.mt-6 {\r\n  margin-top: 8rem!important;\r\n}\r\n\r\n.container {\r\n  overflow: auto;\r\n  width: 100%;\r\n  height: 100%;\r\n  -webkit-overflow-scrolling: touch !important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7O0FBRUE7RUFDRSwwQkFBa0I7RUFBbEIsdUJBQWtCO0VBQWxCLGtCQUFrQjtFQUNsQixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLFlBQVk7RUFDWiw0Q0FBNEM7QUFDOUMiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gIHdpZHRoOiAyNSU7XHJcbn1cclxuXHJcbi5jZW50ZXIge1xyXG4gIHdpZHRoOiBmaXQtY29udGVudDtcclxuICBtYXJnaW46IGF1dG87XHJcbn1cclxuXHJcbi5tdC02IHtcclxuICBtYXJnaW4tdG9wOiA4cmVtIWltcG9ydGFudDtcclxufVxyXG5cclxuLmNvbnRhaW5lciB7XHJcbiAgb3ZlcmZsb3c6IGF1dG87XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIC13ZWJraXQtb3ZlcmZsb3ctc2Nyb2xsaW5nOiB0b3VjaCAhaW1wb3J0YW50O1xyXG59Il19 */"
+module.exports = ".nav-bar-margin {\r\n  margin-top: 8rem!important;\r\n}\r\n\r\n.no-scroll {\r\n  background-color: #eee;\r\n  width: 200px;\r\n  height: 100px;\r\n  border: 1px dotted black;\r\n  overflow-y: scroll; /* Add the ability to scroll */\r\n}\r\n\r\n/* Hide scrollbar for Chrome, Safari and Opera */\r\n\r\n.no-scroll::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n/* Hide scrollbar for IE, Edge and Firefox */\r\n\r\n.no-scroll {\r\n  -ms-overflow-style: none;  /* IE and Edge */\r\n  scrollbar-width: none;  /* Firefox */\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLGFBQWE7RUFDYix3QkFBd0I7RUFDeEIsa0JBQWtCLEVBQUUsOEJBQThCO0FBQ3BEOztBQUVBLGdEQUFnRDs7QUFDaEQ7SUFDSSxhQUFhO0FBQ2pCOztBQUVBLDRDQUE0Qzs7QUFDNUM7RUFDRSx3QkFBd0IsR0FBRyxnQkFBZ0I7RUFDM0MscUJBQXFCLEdBQUcsWUFBWTtBQUN0QyIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdi1iYXItbWFyZ2luIHtcclxuICBtYXJnaW4tdG9wOiA4cmVtIWltcG9ydGFudDtcclxufVxyXG5cclxuLm5vLXNjcm9sbCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcclxuICB3aWR0aDogMjAwcHg7XHJcbiAgaGVpZ2h0OiAxMDBweDtcclxuICBib3JkZXI6IDFweCBkb3R0ZWQgYmxhY2s7XHJcbiAgb3ZlcmZsb3cteTogc2Nyb2xsOyAvKiBBZGQgdGhlIGFiaWxpdHkgdG8gc2Nyb2xsICovXHJcbn1cclxuXHJcbi8qIEhpZGUgc2Nyb2xsYmFyIGZvciBDaHJvbWUsIFNhZmFyaSBhbmQgT3BlcmEgKi9cclxuLm5vLXNjcm9sbDo6LXdlYmtpdC1zY3JvbGxiYXIge1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxufVxyXG5cclxuLyogSGlkZSBzY3JvbGxiYXIgZm9yIElFLCBFZGdlIGFuZCBGaXJlZm94ICovXHJcbi5uby1zY3JvbGwge1xyXG4gIC1tcy1vdmVyZmxvdy1zdHlsZTogbm9uZTsgIC8qIElFIGFuZCBFZGdlICovXHJcbiAgc2Nyb2xsYmFyLXdpZHRoOiBub25lOyAgLyogRmlyZWZveCAqL1xyXG59Il19 */"
 
 /***/ }),
 
@@ -71,9 +206,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AppComponent = class AppComponent {
-    constructor() {
-        this.title = 'lemon-zest-fest';
-    }
     scrollMe(event) {
         var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -109,8 +241,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navigation-bar/navigation-bar.component */ "./src/app/navigation-bar/navigation-bar.component.ts");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./navigation-bar/navigation-bar.component */ "./src/app/navigation-bar/navigation-bar.component.ts");
+/* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
+
+
+
+
+
+
 
 
 
@@ -121,16 +265,145 @@ let AppModule = class AppModule {
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-            _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavigationBarComponent"]
+            _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"],
+            _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
+            _artists_artists_component__WEBPACK_IMPORTED_MODULE_6__["ArtistsComponent"],
+            _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"],
+            _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"],
+            _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_9__["NavigationBarComponent"],
+            _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_10__["SponsorsComponent"]
         ],
         imports: [
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]
         ],
         providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/artists/artists.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/artists/artists.component.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FydGlzdHMvYXJ0aXN0cy5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/artists/artists.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/artists/artists.component.ts ***!
+  \**********************************************/
+/*! exports provided: ArtistsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArtistsComponent", function() { return ArtistsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ArtistsComponent = class ArtistsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ArtistsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-artists',
+        template: __webpack_require__(/*! raw-loader!./artists.component.html */ "./node_modules/raw-loader/index.js!./src/app/artists/artists.component.html"),
+        styles: [__webpack_require__(/*! ./artists.component.css */ "./src/app/artists/artists.component.css")]
+    })
+], ArtistsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/contact/contact.component.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/contact/contact.component.ts ***!
+  \**********************************************/
+/*! exports provided: ContactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ContactComponent = class ContactComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-contact',
+        template: __webpack_require__(/*! raw-loader!./contact.component.html */ "./node_modules/raw-loader/index.js!./src/app/contact/contact.component.html"),
+        styles: [__webpack_require__(/*! ./contact.component.css */ "./src/app/contact/contact.component.css")]
+    })
+], ContactComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/home/home.component.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "img {\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 25%;\r\n}\r\n\r\n.center {\r\n  width: -webkit-fit-content;\r\n  width: -moz-fit-content;\r\n  width: fit-content;\r\n  margin: auto;\r\n}\r\n\r\n.container {\r\n  overflow: auto;\r\n  width: 100%;\r\n  height: 100%;\r\n  -webkit-overflow-scrolling: touch !important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7O0FBRUE7RUFDRSwwQkFBa0I7RUFBbEIsdUJBQWtCO0VBQWxCLGtCQUFrQjtFQUNsQixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLFlBQVk7RUFDWiw0Q0FBNEM7QUFDOUMiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gIHdpZHRoOiAyNSU7XHJcbn1cclxuXHJcbi5jZW50ZXIge1xyXG4gIHdpZHRoOiBmaXQtY29udGVudDtcclxuICBtYXJnaW46IGF1dG87XHJcbn1cclxuXHJcbi5jb250YWluZXIge1xyXG4gIG92ZXJmbG93OiBhdXRvO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICAtd2Via2l0LW92ZXJmbG93LXNjcm9sbGluZzogdG91Y2ggIWltcG9ydGFudDtcclxufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/home/home.component.ts ***!
+  \****************************************/
+/*! exports provided: HomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let HomeComponent = class HomeComponent {
+};
+HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-home',
+        template: __webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/index.js!./src/app/home/home.component.html"),
+        styles: [__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")]
+    })
+], HomeComponent);
 
 
 
@@ -173,6 +446,48 @@ NavigationBarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [__webpack_require__(/*! ./navigation-bar.component.css */ "./src/app/navigation-bar/navigation-bar.component.css")]
     })
 ], NavigationBarComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/sponsors/sponsors.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/sponsors/sponsors.component.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Nwb25zb3JzL3Nwb25zb3JzLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/sponsors/sponsors.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/sponsors/sponsors.component.ts ***!
+  \************************************************/
+/*! exports provided: SponsorsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SponsorsComponent", function() { return SponsorsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let SponsorsComponent = class SponsorsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+SponsorsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-sponsors',
+        template: __webpack_require__(/*! raw-loader!./sponsors.component.html */ "./node_modules/raw-loader/index.js!./src/app/sponsors/sponsors.component.html"),
+        styles: [__webpack_require__(/*! ./sponsors.component.css */ "./src/app/sponsors/sponsors.component.css")]
+    })
+], SponsorsComponent);
 
 
 
