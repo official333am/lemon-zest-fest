@@ -7,6 +7,11 @@
   color: #f9ed27 !important;
 }
 
+.nav-item:hover {
+  background: #f9ed27 !important;
+  color: #2d2e74 !important;
+}
+
 .navbar-toggler {
   /* background: #f9ed27 !important; */
   border-color: transparent !important;
