@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../assets/images/banners/team.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h1>About</h1>\r\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\r\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\r\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\r\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\r\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\r\n        and mostly restricted to contexts like that used in criticism.</p>\r\n    </div>\r\n  </div>\r\n</div>"
+module.exports = "<img src=\"../../assets/images/banners/team.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h1>About</h1>\r\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\r\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\r\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\r\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\r\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\r\n        and mostly restricted to contexts like that used in criticism.</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n<app-footer></app-footer>"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "<img src=\"../../assets/images/banners/team.jpg\" alt=\"Sana's
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navigation-bar></app-navigation-bar>\r\n<div class=\"nav-bar-margin\"></div>\r\n<main [@routerTransition]=\"getState(o)\">\r\n  <router-outlet #o=\"outlet\"></router-outlet>\r\n</main>"
+module.exports = "<app-navigation-bar></app-navigation-bar>\r\n<div class=\"header-footer-margin\"></div>\r\n<main [@routerTransition]=\"getState(o)\">\r\n  <router-outlet #o=\"outlet\"></router-outlet>\r\n</main>"
 
 /***/ }),
 
@@ -52,7 +52,7 @@ module.exports = "<app-navigation-bar></app-navigation-bar>\r\n<div class=\"nav-
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h1>Artists</h1>\r\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\r\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\r\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\r\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\r\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\r\n        and mostly restricted to contexts like that used in criticism.</p>\r\n    </div>\r\n  </div>\r\n</div>"
+module.exports = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h1>Artists</h1>\r\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\r\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\r\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\r\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\r\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\r\n        and mostly restricted to contexts like that used in criticism.</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n<app-footer></app-footer>"
 
 /***/ }),
 
@@ -63,7 +63,18 @@ module.exports = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../assets/images/banners/contact.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Contact</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>"
+module.exports = "<img src=\"../../assets/images/banners/contact.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Contact</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/footer/footer.component.html":
+/*!************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/footer/footer.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"header-footer-margin\"></div>\n<div class=\"footer\">\n  <div class=row>\n    <div class=\"col text-center\">\n      <a href=\"https://www.instagram.com/lemonzestfest/\"><i class=\"fa fa-facebook footer-content\"></i></a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\"><i class=\"fa fa-instagram footer-content\"></i></a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\"><i class=\"fa fa-twitter footer-content\"></i></a>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -74,7 +85,7 @@ module.exports = "<img src=\"../../assets/images/banners/contact.jpg\" alt=\"San
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../assets/images/banners/lemon.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>History</h1>\n      <p>The origin of the lemon is unknown, though lemons are thought to have first grown in Assam (a region in northeast India),\n        northern Burma or China.[2] A genomic study of the lemon indicated it was a hybrid between bitter orange (sour orange)\n        and citron.[3][4] Lemons entered Europe near southern Italy no later than the second century AD, during the time\n        of Ancient Rome.[2] However, they were not widely cultivated. They were later introduced to Persia and then to Iraq\n        and Egypt around 700 AD.[2] The lemon was first recorded in literature in a 10th-century Arabic treatise on farming,\n        and was also used as an ornamental plant in early Islamic gardens.[2] It was distributed widely throughout the Arab\n        world and the Mediterranean region between 1000 and 1150.[2] An article on Lemon and lime tree cultivation in Andalusia\n        of Spain is brought down in Ibn al-'Awwam's 12th-century agricultural work, Book on Agriculture.[5] The first substantial\n        cultivation of lemons in Europe began in Genoa in the middle of the 15th century. The lemon was later introduced\n        to the Americas in 1493 when Christopher Columbus brought lemon seeds to Hispaniola on his voyages. Spanish conquest\n        throughout the New World helped spread lemon seeds. It was mainly used as an ornamental plant and for medicine.[2]\n        In the 19th century, lemons were increasingly planted in Florida and California.[2] In 1747, James Lind's experiments\n        on seamen suffering from scurvy involved adding lemon juice to their diets, though vitamin C was not yet known as\n        an important dietary ingredient.[2][6] The origin of the word lemon may be Middle Eastern.[2] The word draws from\n        the Old French limon, then Italian limone, from the Arabic laymūn or līmūn, and from the Persian līmūn, a generic\n        term for citrus fruit, which is a cognate of Sanskrit (nimbū, “lime”).[7]</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Varieties</h1>\n      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]\n        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'\n        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is\n        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and\n        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket\n        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice\n        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is\n        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian\n        cultivar.[16]\n      </p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Nutrition and phytochemicals</h1>\n      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential\n        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]\n        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit\n        juice, and about five times the amount of citric acid found in orange juice.[18]</p>\n    </div>\n  </div>\n</div>"
+module.exports = "<img src=\"../../assets/images/banners/lemon.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>History</h1>\n      <p>The origin of the lemon is unknown, though lemons are thought to have first grown in Assam (a region in northeast India),\n        northern Burma or China.[2] A genomic study of the lemon indicated it was a hybrid between bitter orange (sour orange)\n        and citron.[3][4] Lemons entered Europe near southern Italy no later than the second century AD, during the time\n        of Ancient Rome.[2] However, they were not widely cultivated. They were later introduced to Persia and then to Iraq\n        and Egypt around 700 AD.[2] The lemon was first recorded in literature in a 10th-century Arabic treatise on farming,\n        and was also used as an ornamental plant in early Islamic gardens.[2] It was distributed widely throughout the Arab\n        world and the Mediterranean region between 1000 and 1150.[2] An article on Lemon and lime tree cultivation in Andalusia\n        of Spain is brought down in Ibn al-'Awwam's 12th-century agricultural work, Book on Agriculture.[5] The first substantial\n        cultivation of lemons in Europe began in Genoa in the middle of the 15th century. The lemon was later introduced\n        to the Americas in 1493 when Christopher Columbus brought lemon seeds to Hispaniola on his voyages. Spanish conquest\n        throughout the New World helped spread lemon seeds. It was mainly used as an ornamental plant and for medicine.[2]\n        In the 19th century, lemons were increasingly planted in Florida and California.[2] In 1747, James Lind's experiments\n        on seamen suffering from scurvy involved adding lemon juice to their diets, though vitamin C was not yet known as\n        an important dietary ingredient.[2][6] The origin of the word lemon may be Middle Eastern.[2] The word draws from\n        the Old French limon, then Italian limone, from the Arabic laymūn or līmūn, and from the Persian līmūn, a generic\n        term for citrus fruit, which is a cognate of Sanskrit (nimbū, “lime”).[7]</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Varieties</h1>\n      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]\n        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'\n        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is\n        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and\n        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket\n        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice\n        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is\n        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian\n        cultivar.[16]\n      </p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Nutrition and phytochemicals</h1>\n      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential\n        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]\n        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit\n        juice, and about five times the amount of citric acid found in orange juice.[18]</p>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>"
 
 /***/ }),
 
@@ -96,7 +107,7 @@ module.exports = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../assets/images/banners/sponsor.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Sponsors</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>"
+module.exports = "<img src=\"../../assets/images/banners/sponsor.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Sponsors</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>"
 
 /***/ }),
 
@@ -201,7 +212,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".nav-bar-margin {\r\n  margin-top: 4.6rem!important;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw0QkFBNEI7QUFDOUIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5uYXYtYmFyLW1hcmdpbiB7XHJcbiAgbWFyZ2luLXRvcDogNC42cmVtIWltcG9ydGFudDtcclxufSJdfQ== */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
 
 /***/ }),
 
@@ -290,6 +301,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./navigation-bar/navigation-bar.component */ "./src/app/navigation-bar/navigation-bar.component.ts");
 /* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+
 
 
 
@@ -314,7 +327,8 @@ var AppModule = /** @class */ (function () {
                 _contact_contact_component__WEBPACK_IMPORTED_MODULE_8__["ContactComponent"],
                 _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"],
                 _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_10__["NavigationBarComponent"],
-                _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_11__["SponsorsComponent"]
+                _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_11__["SponsorsComponent"],
+                _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"]
             ],
             imports: [
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
@@ -414,6 +428,50 @@ var ContactComponent = /** @class */ (function () {
         })
     ], ContactComponent);
     return ContactComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/footer/footer.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/footer/footer.component.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".footer {\r\n  height: 64px;\r\n  background-color: #2D2929;\r\n}\r\n\r\n.footer-content {\r\n  color: white;\r\n  font-size: 24px;\r\n  margin-top: 20px;\r\n  margin-left: 12px;\r\n  margin-right: 12px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFlBQVk7RUFDWixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyIHtcclxuICBoZWlnaHQ6IDY0cHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzJEMjkyOTtcclxufVxyXG5cclxuLmZvb3Rlci1jb250ZW50IHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgZm9udC1zaXplOiAyNHB4O1xyXG4gIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgbWFyZ2luLWxlZnQ6IDEycHg7XHJcbiAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xyXG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/footer/footer.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/footer/footer.component.ts ***!
+  \********************************************/
+/*! exports provided: FooterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var FooterComponent = /** @class */ (function () {
+    function FooterComponent() {
+    }
+    FooterComponent.prototype.ngOnInit = function () {
+    };
+    FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-footer',
+            template: __webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/index.js!./src/app/footer/footer.component.html"),
+            styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")]
+        })
+    ], FooterComponent);
+    return FooterComponent;
 }());
 
 

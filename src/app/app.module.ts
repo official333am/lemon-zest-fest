@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
     ContactComponent,
     HomeComponent,
     NavigationBarComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    FooterComponent
   ],
   imports: [
     AppRoutingModule,

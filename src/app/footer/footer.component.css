@@ -1,0 +1,12 @@
+.footer {
+  height: 64px;
+  background-color: #2D2929;
+}
+
+.footer-content {
+  color: white;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
