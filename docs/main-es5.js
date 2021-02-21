@@ -74,7 +74,7 @@ module.exports = "<img src=\"../../assets/images/banners/contact.jpg\" alt=\"San
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"header-footer-margin\"></div>\n<div class=\"footer\">\n  <div class=row>\n    <div class=\"col text-center\">\n      <a href=\"https://www.instagram.com/lemonzestfest/\"><i class=\"fa fa-facebook footer-content\"></i></a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\"><i class=\"fa fa-instagram footer-content\"></i></a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\"><i class=\"fa fa-twitter footer-content\"></i></a>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"header-footer-margin\"></div>\n<div class=\"footer text-center\">\n  <a href=\"https://www.instagram.com/lemonzestfest/\">\n    <i class=\"fa fa-facebook footer-content\"></i>\n  </a>\n  <a href=\"https://www.instagram.com/lemonzestfest/\">\n    <i class=\"fa fa-instagram footer-content\"></i>\n  </a>\n  <a href=\"https://www.instagram.com/lemonzestfest/\">\n    <i class=\"fa fa-twitter footer-content\"></i>\n  </a>\n</div>"
 
 /***/ }),
 
