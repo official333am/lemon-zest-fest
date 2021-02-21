@@ -58,3 +58,11 @@ a {
 .bg-light {
   background: #2d2e74 !important;
 }
+
+img {
+  margin-top: -7px;
+}
+
+#lemon {
+  transition: all 1s ease-in-out;
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-navigation-bar',
@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation-bar.component.css']
 })
 export class NavigationBarComponent implements OnInit {
+  public lemon: HTMLElement;
+  public rot = 360;
 
-  constructor() { }
+  constructor(private renderer: Renderer2) { }
 
   ngOnInit() {
+    this.lemon = document.getElementById("lemon");
+  }
+
+  public spinLemon(): void {
+    console.log('you got here');
+    this.renderer.setStyle(this.lemon, 'transform', 'rotate(' + this.rot + 'deg)');
+    this.rot += 360;
   }
 
 }
