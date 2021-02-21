@@ -16,7 +16,6 @@ export class NavigationBarComponent implements OnInit {
   }
 
   public spinLemon(): void {
-    console.log('you got here');
     this.renderer.setStyle(this.lemon, 'transform', 'rotate(' + this.rot + 'deg)');
     this.rot += 360;
   }
