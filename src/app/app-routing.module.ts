@@ -8,11 +8,11 @@ import { HomeComponent } from './home/home.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 
 const routes: Routes = [
-  { path: 'about', component: AboutComponent },
-  { path: 'artists', component: ArtistsComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'sponsors', component: SponsorsComponent },
-  { path: '**', component: HomeComponent },
+  { path: 'about', component: AboutComponent, data: { state: 'about' } },
+  { path: 'artists', component: ArtistsComponent, data: { state: 'artists' } },
+  { path: 'contact', component: ContactComponent, data: { state: 'contact' } },
+  { path: 'sponsors', component: SponsorsComponent, data: { state: 'sponsors' } },
+  { path: '**', component: HomeComponent, data: { state: '/' } },
 ];
 
 // configures NgModule imports and exports
