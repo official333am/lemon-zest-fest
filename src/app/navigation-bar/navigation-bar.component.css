@@ -60,9 +60,13 @@ a {
 }
 
 img {
-  margin-top: -7px;
+  margin-top: -2px;
 }
 
 #lemon {
   transition: all 1s ease-in-out;
+}
+
+#logo-text:hover {
+  text-decoration: none!important;
 }

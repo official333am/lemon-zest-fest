@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { FooterComponent } from './footer/footer.component';
+import { SourPatchComponent } from './sour-patch/sour-patch.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     NavigationBarComponent,
     SponsorsComponent,
-    FooterComponent
+    FooterComponent,
+    SourPatchComponent
   ],
   imports: [
     AppRoutingModule,

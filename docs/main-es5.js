@@ -85,7 +85,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Artists</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>\n\n<div class=\"container mt-5\">\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#performing\">Performing Artist</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" data-toggle=\"tab\" href=\"#gallery\">Gallery Artist</a>\n    </li>\n  </ul>\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div id=\"performing\" class=\"container tab-pane active text-center\"><br>\n      <iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfD--8QIHkBvIG3vO6IYNZbUltzxiEOBMOeP66u_gxeqQRoow/viewform?embedded=true\" width=\"100%\" height=\"2600\" frameborder=\"0\">Loading…</iframe>\n    </div>\n    <div id=\"gallery\" class=\"container tab-pane fade text-center\"><br>\n      <iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfO0CU8oopxEPa6w5DmevqpQWsEjacHqtsxC4anHeYVBIH9VA/viewform?embedded=true\" width=\"100%\" height=\"2300\" frameborder=\"0\">Loading…</iframe>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Artists</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n</div>\n\n<div class=\"container mt-5\">\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#performing\">Performing Artist</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" data-toggle=\"tab\" href=\"#gallery\">Gallery Artist</a>\n    </li>\n  </ul>\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div id=\"performing\" class=\"container tab-pane active text-center\"><br>\n      <iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfD--8QIHkBvIG3vO6IYNZbUltzxiEOBMOeP66u_gxeqQRoow/viewform?embedded=true\" width=\"100%\" height=\"2750\" frameborder=\"0\">Loading…</iframe>\n    </div>\n    <div id=\"gallery\" class=\"container tab-pane fade text-center\"><br>\n      <iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSfO0CU8oopxEPa6w5DmevqpQWsEjacHqtsxC4anHeYVBIH9VA/viewform?embedded=true\" width=\"100%\" height=\"1900\" frameborder=\"0\">Loading…</iframe>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>";
     /***/
   },
 
@@ -165,7 +165,27 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\" routerLink=\"/\">\n    Lemon Zest <img id=\"lemon\" src=\"./../../assets/images/logos/just-lemon.png\" width=\"32\" height=\"32\" alt=\"\" (click)=\"spinLemon()\">\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>";
+    __webpack_exports__["default"] = "<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\">\n    <a id=\"logo-text\" class=\"mr-1\" routerLink=\"/\">Lemon Zest</a>\n    <a routerLink=\"sour-patch\"><img id=\"lemon\" src=\"./../../assets/images/logos/just-lemon.png\" width=\"32\" height=\"32\" alt=\"\" (click)=\"spinLemon()\"></a>\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/sour-patch/sour-patch.component.html":
+  /*!********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sour-patch/sour-patch.component.html ***!
+    \********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function (module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<img src=\"../../assets/images/banners/sour-patch.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>You've made it!</h1>\n      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.\n        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.\n        However, the term is also often used in the entertainment business, especially in a business context, for musicians\n        and other performers (although less often for actors). \"Artiste\" (the French for artist) is a variant used in English\n        in this context, but this use has become rare. Use of the term \"artist\" to describe writers is valid, but less common,\n        and mostly restricted to contexts like that used in criticism.</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Varieties</h1>\n      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]\n        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'\n        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is\n        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and\n        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket\n        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice\n        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is\n        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian\n        cultivar.[16]\n      </p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Nutrition and phytochemicals</h1>\n      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential\n        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]\n        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit\n        juice, and about five times the amount of citric acid found in orange juice.[18]</p>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>";
     /***/
   },
 
@@ -903,7 +923,13 @@
     /* harmony import */
 
 
-    var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./sour-patch/sour-patch.component */
+    "./src/app/sour-patch/sour-patch.component.ts");
+    /* harmony import */
+
+
+    var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./sponsors/sponsors.component */
     "./src/app/sponsors/sponsors.component.ts"); // CLI imports router
 
@@ -927,8 +953,14 @@
         state: 'contact'
       }
     }, {
+      path: 'sour-patch',
+      component: _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_7__["SourPatchComponent"],
+      data: {
+        state: 'sour-patch'
+      }
+    }, {
       path: 'sponsors',
-      component: _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_7__["SponsorsComponent"],
+      component: _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_8__["SponsorsComponent"],
       data: {
         state: 'sponsors'
       }
@@ -1154,10 +1186,16 @@
     var _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! ./footer/footer.component */
     "./src/app/footer/footer.component.ts");
+    /* harmony import */
+
+
+    var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! ./sour-patch/sour-patch.component */
+    "./src/app/sour-patch/sour-patch.component.ts");
 
     let AppModule = class AppModule {};
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-      declarations: [_about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"], _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _artists_artists_component__WEBPACK_IMPORTED_MODULE_8__["ArtistsComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"], _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_11__["NavigationBarComponent"], _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_12__["SponsorsComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"]],
+      declarations: [_about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"], _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _artists_artists_component__WEBPACK_IMPORTED_MODULE_8__["ArtistsComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"], _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_11__["NavigationBarComponent"], _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_12__["SponsorsComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_14__["SourPatchComponent"]],
       imports: [_app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"]],
       providers: [{
         provide: _angular_common__WEBPACK_IMPORTED_MODULE_4__["LocationStrategy"],
@@ -1459,7 +1497,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".navbar .navbar-collapse {\n  text-align: center;\n}\n\n.navbar-brand {\n  font-size: 32px;\n  color: #f9ed27 !important;\n}\n\n.nav-item:hover {\n  background: #f9ed27 !important;\n  color: #2d2e74 !important;\n}\n\n.navbar-toggler {\n  /* background: #f9ed27 !important; */\n  border-color: transparent !important;\n}\n\n/* The progress container (grey background) */\n\n.progress-container {\n  width: 100%;\n  height: 4px;\n  background: #2d2e74 !important;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin-top: 56px;\n  -webkit-overflow-scrolling: touch !important;\n}\n\n/* The progress bar (scroll indicator) */\n\n.progress-bar {\n  height: 4px;\n  background: #f9ed27 !important;\n  width: 0%;\n  -webkit-overflow-scrolling: touch !important;\n  \n}\n\n.sticky {\n  position: fixed;\n  width: 100%;\n  top: 0;\n  z-index: 9;\n}\n\na {\n  color: #f9ed27 !important;\n}\n\n.fa-bars {\n  color: #f9ed27 !important;\n  font-size: 32px;\n}\n\n.bg-light {\n  background: #2d2e74 !important;\n}\n\nimg {\n  margin-top: -7px;\n}\n\n#lemon {\n  -webkit-transition: all 1s ease-in-out;\n  transition: all 1s ease-in-out;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2aWdhdGlvbi1iYXIvbmF2aWdhdGlvbi1iYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSw4QkFBOEI7RUFDOUIseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0Usb0NBQW9DO0VBQ3BDLG9DQUFvQztBQUN0Qzs7QUFFQSw2Q0FBNkM7O0FBQzdDO0VBQ0UsV0FBVztFQUNYLFdBQVc7RUFDWCw4QkFBOEI7RUFDOUIsa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxPQUFPO0VBQ1AsUUFBUTtFQUNSLGdCQUFnQjtFQUNoQiw0Q0FBNEM7QUFDOUM7O0FBRUEsd0NBQXdDOztBQUN4QztFQUNFLFdBQVc7RUFDWCw4QkFBOEI7RUFDOUIsU0FBUztFQUNULDRDQUE0Qzs7QUFFOUM7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLE1BQU07RUFDTixVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLDhCQUE4QjtBQUNoQzs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLHNDQUE4QjtFQUE5Qiw4QkFBOEI7QUFDaEMiLCJmaWxlIjoic3JjL2FwcC9uYXZpZ2F0aW9uLWJhci9uYXZpZ2F0aW9uLWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhciAubmF2YmFyLWNvbGxhcHNlIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4ubmF2YmFyLWJyYW5kIHtcbiAgZm9udC1zaXplOiAzMnB4O1xuICBjb2xvcjogI2Y5ZWQyNyAhaW1wb3J0YW50O1xufVxuXG4ubmF2LWl0ZW06aG92ZXIge1xuICBiYWNrZ3JvdW5kOiAjZjllZDI3ICFpbXBvcnRhbnQ7XG4gIGNvbG9yOiAjMmQyZTc0ICFpbXBvcnRhbnQ7XG59XG5cbi5uYXZiYXItdG9nZ2xlciB7XG4gIC8qIGJhY2tncm91bmQ6ICNmOWVkMjcgIWltcG9ydGFudDsgKi9cbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xufVxuXG4vKiBUaGUgcHJvZ3Jlc3MgY29udGFpbmVyIChncmV5IGJhY2tncm91bmQpICovXG4ucHJvZ3Jlc3MtY29udGFpbmVyIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNHB4O1xuICBiYWNrZ3JvdW5kOiAjMmQyZTc0ICFpbXBvcnRhbnQ7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgYm90dG9tOiAwO1xuICBsZWZ0OiAwO1xuICByaWdodDogMDtcbiAgbWFyZ2luLXRvcDogNTZweDtcbiAgLXdlYmtpdC1vdmVyZmxvdy1zY3JvbGxpbmc6IHRvdWNoICFpbXBvcnRhbnQ7XG59XG4gIFxuLyogVGhlIHByb2dyZXNzIGJhciAoc2Nyb2xsIGluZGljYXRvcikgKi9cbi5wcm9ncmVzcy1iYXIge1xuICBoZWlnaHQ6IDRweDtcbiAgYmFja2dyb3VuZDogI2Y5ZWQyNyAhaW1wb3J0YW50O1xuICB3aWR0aDogMCU7XG4gIC13ZWJraXQtb3ZlcmZsb3ctc2Nyb2xsaW5nOiB0b3VjaCAhaW1wb3J0YW50O1xuICBcbn1cblxuLnN0aWNreSB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgd2lkdGg6IDEwMCU7XG4gIHRvcDogMDtcbiAgei1pbmRleDogOTtcbn1cblxuYSB7XG4gIGNvbG9yOiAjZjllZDI3ICFpbXBvcnRhbnQ7XG59XG5cbi5mYS1iYXJzIHtcbiAgY29sb3I6ICNmOWVkMjcgIWltcG9ydGFudDtcbiAgZm9udC1zaXplOiAzMnB4O1xufVxuXG4uYmctbGlnaHQge1xuICBiYWNrZ3JvdW5kOiAjMmQyZTc0ICFpbXBvcnRhbnQ7XG59XG5cbmltZyB7XG4gIG1hcmdpbi10b3A6IC03cHg7XG59XG5cbiNsZW1vbiB7XG4gIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlLWluLW91dDtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".navbar .navbar-collapse {\n  text-align: center;\n}\n\n.navbar-brand {\n  font-size: 32px;\n  color: #f9ed27 !important;\n}\n\n.nav-item:hover {\n  background: #f9ed27 !important;\n  color: #2d2e74 !important;\n}\n\n.navbar-toggler {\n  /* background: #f9ed27 !important; */\n  border-color: transparent !important;\n}\n\n/* The progress container (grey background) */\n\n.progress-container {\n  width: 100%;\n  height: 4px;\n  background: #2d2e74 !important;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin-top: 56px;\n  -webkit-overflow-scrolling: touch !important;\n}\n\n/* The progress bar (scroll indicator) */\n\n.progress-bar {\n  height: 4px;\n  background: #f9ed27 !important;\n  width: 0%;\n  -webkit-overflow-scrolling: touch !important;\n  \n}\n\n.sticky {\n  position: fixed;\n  width: 100%;\n  top: 0;\n  z-index: 9;\n}\n\na {\n  color: #f9ed27 !important;\n}\n\n.fa-bars {\n  color: #f9ed27 !important;\n  font-size: 32px;\n}\n\n.bg-light {\n  background: #2d2e74 !important;\n}\n\nimg {\n  margin-top: -2px;\n}\n\n#lemon {\n  -webkit-transition: all 1s ease-in-out;\n  transition: all 1s ease-in-out;\n}\n\n#logo-text:hover {\n  text-decoration: none!important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2aWdhdGlvbi1iYXIvbmF2aWdhdGlvbi1iYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSw4QkFBOEI7RUFDOUIseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0Usb0NBQW9DO0VBQ3BDLG9DQUFvQztBQUN0Qzs7QUFFQSw2Q0FBNkM7O0FBQzdDO0VBQ0UsV0FBVztFQUNYLFdBQVc7RUFDWCw4QkFBOEI7RUFDOUIsa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxPQUFPO0VBQ1AsUUFBUTtFQUNSLGdCQUFnQjtFQUNoQiw0Q0FBNEM7QUFDOUM7O0FBRUEsd0NBQXdDOztBQUN4QztFQUNFLFdBQVc7RUFDWCw4QkFBOEI7RUFDOUIsU0FBUztFQUNULDRDQUE0Qzs7QUFFOUM7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLE1BQU07RUFDTixVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLDhCQUE4QjtBQUNoQzs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLHNDQUE4QjtFQUE5Qiw4QkFBOEI7QUFDaEM7O0FBRUE7RUFDRSwrQkFBK0I7QUFDakMiLCJmaWxlIjoic3JjL2FwcC9uYXZpZ2F0aW9uLWJhci9uYXZpZ2F0aW9uLWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhciAubmF2YmFyLWNvbGxhcHNlIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4ubmF2YmFyLWJyYW5kIHtcbiAgZm9udC1zaXplOiAzMnB4O1xuICBjb2xvcjogI2Y5ZWQyNyAhaW1wb3J0YW50O1xufVxuXG4ubmF2LWl0ZW06aG92ZXIge1xuICBiYWNrZ3JvdW5kOiAjZjllZDI3ICFpbXBvcnRhbnQ7XG4gIGNvbG9yOiAjMmQyZTc0ICFpbXBvcnRhbnQ7XG59XG5cbi5uYXZiYXItdG9nZ2xlciB7XG4gIC8qIGJhY2tncm91bmQ6ICNmOWVkMjcgIWltcG9ydGFudDsgKi9cbiAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xufVxuXG4vKiBUaGUgcHJvZ3Jlc3MgY29udGFpbmVyIChncmV5IGJhY2tncm91bmQpICovXG4ucHJvZ3Jlc3MtY29udGFpbmVyIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNHB4O1xuICBiYWNrZ3JvdW5kOiAjMmQyZTc0ICFpbXBvcnRhbnQ7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgYm90dG9tOiAwO1xuICBsZWZ0OiAwO1xuICByaWdodDogMDtcbiAgbWFyZ2luLXRvcDogNTZweDtcbiAgLXdlYmtpdC1vdmVyZmxvdy1zY3JvbGxpbmc6IHRvdWNoICFpbXBvcnRhbnQ7XG59XG4gIFxuLyogVGhlIHByb2dyZXNzIGJhciAoc2Nyb2xsIGluZGljYXRvcikgKi9cbi5wcm9ncmVzcy1iYXIge1xuICBoZWlnaHQ6IDRweDtcbiAgYmFja2dyb3VuZDogI2Y5ZWQyNyAhaW1wb3J0YW50O1xuICB3aWR0aDogMCU7XG4gIC13ZWJraXQtb3ZlcmZsb3ctc2Nyb2xsaW5nOiB0b3VjaCAhaW1wb3J0YW50O1xuICBcbn1cblxuLnN0aWNreSB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgd2lkdGg6IDEwMCU7XG4gIHRvcDogMDtcbiAgei1pbmRleDogOTtcbn1cblxuYSB7XG4gIGNvbG9yOiAjZjllZDI3ICFpbXBvcnRhbnQ7XG59XG5cbi5mYS1iYXJzIHtcbiAgY29sb3I6ICNmOWVkMjcgIWltcG9ydGFudDtcbiAgZm9udC1zaXplOiAzMnB4O1xufVxuXG4uYmctbGlnaHQge1xuICBiYWNrZ3JvdW5kOiAjMmQyZTc0ICFpbXBvcnRhbnQ7XG59XG5cbmltZyB7XG4gIG1hcmdpbi10b3A6IC0ycHg7XG59XG5cbiNsZW1vbiB7XG4gIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlLWluLW91dDtcbn1cblxuI2xvZ28tdGV4dDpob3ZlciB7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZSFpbXBvcnRhbnQ7XG59Il19 */";
     /***/
   },
 
@@ -1525,6 +1563,76 @@
       /*! ./navigation-bar.component.css */
       "./src/app/navigation-bar/navigation-bar.component.css")).default]
     })], NavigationBarComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/sour-patch/sour-patch.component.css":
+  /*!*****************************************************!*\
+    !*** ./src/app/sour-patch/sour-patch.component.css ***!
+    \*****************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function (module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NvdXItcGF0Y2gvc291ci1wYXRjaC5jb21wb25lbnQuY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/sour-patch/sour-patch.component.ts":
+  /*!****************************************************!*\
+    !*** ./src/app/sour-patch/sour-patch.component.ts ***!
+    \****************************************************/
+
+  /*! exports provided: SourPatchComponent */
+
+  /***/
+  function (module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SourPatchComponent", function () {
+      return SourPatchComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    let SourPatchComponent = class SourPatchComponent {
+      constructor() {}
+
+      ngOnInit() {}
+
+    };
+    SourPatchComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-sour-patch',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./sour-patch.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/sour-patch/sour-patch.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./sour-patch.component.css */
+      "./src/app/sour-patch/sour-patch.component.css")).default]
+    })], SourPatchComponent);
     /***/
   },
 
