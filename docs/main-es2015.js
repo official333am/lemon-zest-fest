@@ -559,15 +559,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
-/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./navigation-bar/navigation-bar.component */ "./src/app/navigation-bar/navigation-bar.component.ts");
-/* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./navigation-bar/navigation-bar.component */ "./src/app/navigation-bar/navigation-bar.component.ts");
+/* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+
 
 
 
@@ -586,22 +588,22 @@ let AppModule = class AppModule {
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
         declarations: [
-            _about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"],
-            _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-            _artists_artists_component__WEBPACK_IMPORTED_MODULE_7__["ArtistsComponent"],
-            _contact_contact_component__WEBPACK_IMPORTED_MODULE_8__["ContactComponent"],
-            _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"],
-            _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_10__["NavigationBarComponent"],
-            _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_11__["SponsorsComponent"],
-            _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"]
+            _about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"],
+            _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+            _artists_artists_component__WEBPACK_IMPORTED_MODULE_8__["ArtistsComponent"],
+            _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"],
+            _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
+            _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_11__["NavigationBarComponent"],
+            _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_12__["SponsorsComponent"],
+            _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"]
         ],
         imports: [
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
         ],
-        providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+        providers: [{ provide: _angular_common__WEBPACK_IMPORTED_MODULE_4__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_4__["HashLocationStrategy"] }],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })
 ], AppModule);
 
