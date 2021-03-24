@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf docs/
-ng build --baseHref "lemonzestfest.com/"
+ng build
 cp CNAME "docs"
 git add .
 git commit -m "update - %date% %time%"
