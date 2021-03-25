@@ -14,9 +14,18 @@ a, h1 {
     color: #2D2929 !important;
 }
 
+a {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
 p {
     font-family: "Casablanca URW Light";
     color: #2D2929 !important;
+    font-size: 20px;
 }
 
 .full-img {
@@ -26,4 +35,12 @@ p {
 
 .header-footer-margin {
     margin-top: 4.6rem!important;
+}
+
+.row {
+    margin-top: 1.5rem!important;
+}
+
+.lemon-center {
+    text-align: center;
 }
