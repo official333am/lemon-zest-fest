@@ -14,3 +14,7 @@ img {
   height: 100%;
   -webkit-overflow-scrolling: touch !important;
 }
+
+form {
+  display: inline-flex;
+}

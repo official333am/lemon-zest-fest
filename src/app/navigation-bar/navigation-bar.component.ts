@@ -1,5 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 
+declare var $: any;
+
 @Component({
   selector: 'app-navigation-bar',
   templateUrl: './navigation-bar.component.html',
@@ -18,6 +20,10 @@ export class NavigationBarComponent implements OnInit {
   public spinLemon(): void {
     this.renderer.setStyle(this.lemon, 'transform', 'rotate(' + this.rot + 'deg)');
     this.rot += 360;
+  }
+
+  public get isToggleEnabled(): boolean {
+    return $(window).width() <= 991;
   }
 
 }

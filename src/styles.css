@@ -28,6 +28,10 @@ p {
     font-size: 20px;
 }
 
+input {
+    font-family: "Casablanca URW Light";
+}
+
 .full-img {
     width: 100%;
     height: auto;
@@ -43,4 +47,10 @@ p {
 
 .lemon-center {
     text-align: center;
+}
+
+.btn-primary {
+    font-family: "Blakely Bold" !important;
+    background-color: #2D2929 !important;
+    border-color: #2D2929 !important;
 }
