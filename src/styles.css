@@ -9,7 +9,7 @@
     src: local("Casablanca URW Light"), url(./assets/fonts/Casablanca-URW-Light/Casablanca-URW-Light.ttf) format("truetype");
 }
 
-a, h1 {
+a, h1, h2 {
     font-family: "Blakely Bold";
     color: #2D2929 !important;
 }
@@ -53,4 +53,8 @@ input {
     font-family: "Blakely Bold" !important;
     background-color: #2D2929 !important;
     border-color: #2D2929 !important;
+}
+
+.lemon-zest-blue {
+    color: #2d2e74 !important;
 }
