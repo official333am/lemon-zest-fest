@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Artists</h1>\n      <p>Are you interested in participating in Lemon Zest 2022? We started this festival with the artists of the DMV\n        area at the forefront. After nearly two years of no shows or exhibits, we wanted to create the perfect\n        opportunity for artists to get back into the swing of things! If you're looking to be a performing or gallery\n        artist, here's your chance! Below we have provided two forms to gauge interest and ultimately choose who will be\n        selected to participate.</p>\n    </div>\n  </div>\n</div>\n\n<div class=\"container mt-5\">\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#performing\">Performing Artist</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" data-toggle=\"tab\" href=\"#gallery\">Gallery Artist</a>\n    </li>\n  </ul>\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div id=\"performing\" class=\"container tab-pane active text-center\"><br>\n      <iframe\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfD--8QIHkBvIG3vO6IYNZbUltzxiEOBMOeP66u_gxeqQRoow/viewform?embedded=true\"\n        width=\"100%\" height=\"2750\" frameborder=\"0\">Loading…</iframe>\n    </div>\n    <div id=\"gallery\" class=\"container tab-pane fade text-center\"><br>\n      <iframe\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfO0CU8oopxEPa6w5DmevqpQWsEjacHqtsxC4anHeYVBIH9VA/viewform?embedded=true\"\n        width=\"100%\" height=\"1900\" frameborder=\"0\">Loading…</iframe>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Artists</h1>\n      <p>Are you interested in participating in Lemon Zest 2022? We started this festival with the artists of the DMV\n        area at the forefront. After nearly two years of no shows or exhibits, we wanted to create the perfect\n        opportunity for artists to get back into the swing of things! If you're looking to be a performing or gallery\n        artist, here's your chance! Below we have provided two forms to gauge interest and ultimately choose who will be\n        selected to participate.</p>\n    </div>\n  </div>\n</div>\n\n<div class=\"container mt-5\">\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#performing\">Performing Artist</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" data-toggle=\"tab\" href=\"#gallery\">Gallery Artist</a>\n    </li>\n  </ul>\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div id=\"performing\" class=\"container tab-pane active text-center\"><br>\n      <iframe\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfD--8QIHkBvIG3vO6IYNZbUltzxiEOBMOeP66u_gxeqQRoow/viewform?embedded=true\"\n        width=\"100%\" [height]=\"iframeHeights.pHeight\" frameborder=\"0\">Loading…</iframe>\n    </div>\n    <div id=\"gallery\" class=\"container tab-pane fade text-center\"><br>\n      <iframe\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfO0CU8oopxEPa6w5DmevqpQWsEjacHqtsxC4anHeYVBIH9VA/viewform?embedded=true\"\n        width=\"100%\" [height]=\"iframeHeights.gHeight\" frameborder=\"0\">Loading…</iframe>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>");
 
 /***/ }),
 
@@ -661,6 +661,48 @@ let ArtistsComponent = class ArtistsComponent {
     constructor() { }
     ngOnInit() {
     }
+    get iframeHeights() {
+        if ($(window).width() <= 350) {
+            return {
+                pHeight: 3650,
+                gHeight: 2700
+            };
+        }
+        else if ($(window).width() <= 400) {
+            return {
+                pHeight: 3350,
+                gHeight: 2400
+            };
+        }
+        else if ($(window).width() <= 450) {
+            return {
+                pHeight: 3250,
+                gHeight: 2300
+            };
+        }
+        else if ($(window).width() <= 600) {
+            return {
+                pHeight: 2950,
+                gHeight: 2100
+            };
+        }
+        else if ($(window).width() <= 1024) {
+            return {
+                pHeight: 2750,
+                gHeight: 1900
+            };
+        }
+        else {
+            return {
+                pHeight: 2750,
+                gHeight: 1900
+            };
+        }
+        // return {
+        //   pHeight: (Math.ceil($(window).width()/50)*50)*(-2.8)+4630,
+        //   gHeight: Math.ceil($(window).width()/50)*50,
+        // }
+    }
 };
 ArtistsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -683,7 +725,7 @@ ArtistsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".icon-content {\n  font-size: 24px;\n  margin-left: 12px;\n  margin-right: 12px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsaUJBQWlCO0VBQ2pCLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmljb24tY29udGVudCB7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgbWFyZ2luLWxlZnQ6IDEycHg7XG4gIG1hcmdpbi1yaWdodDogMTJweDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".icon-content {\n  font-size: 24px;\n  margin-left: 12px;\n  margin-right: 12px;\n}\n\ni {\n  -webkit-transition: all .2s ease-in-out;\n  transition: all .2s ease-in-out;\n}\n\ni:hover { \n  -webkit-transform: scale(1.5); \n          transform: scale(1.5); \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsaUJBQWlCO0VBQ2pCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHVDQUErQjtFQUEvQiwrQkFBK0I7QUFDakM7O0FBRUE7RUFDRSw2QkFBcUI7VUFBckIscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaWNvbi1jb250ZW50IHtcbiAgZm9udC1zaXplOiAyNHB4O1xuICBtYXJnaW4tbGVmdDogMTJweDtcbiAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xufVxuXG5pIHtcbiAgdHJhbnNpdGlvbjogYWxsIC4ycyBlYXNlLWluLW91dDtcbn1cblxuaTpob3ZlciB7IFxuICB0cmFuc2Zvcm06IHNjYWxlKDEuNSk7IFxufSJdfQ== */");
 
 /***/ }),
 
@@ -727,7 +769,7 @@ ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".footer {\n  height: 96px;\n  background-color: #2D2929;\n}\n\n.footer-content {\n  color: #FDFAFA;\n  font-size: 24px;\n  margin-top: 20px;\n  margin-left: 12px;\n  margin-right: 12px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyIHtcbiAgaGVpZ2h0OiA5NnB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMkQyOTI5O1xufVxuXG4uZm9vdGVyLWNvbnRlbnQge1xuICBjb2xvcjogI0ZERkFGQTtcbiAgZm9udC1zaXplOiAyNHB4O1xuICBtYXJnaW4tdG9wOiAyMHB4O1xuICBtYXJnaW4tbGVmdDogMTJweDtcbiAgbWFyZ2luLXJpZ2h0OiAxMnB4O1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".footer {\n  height: 96px;\n  background-color: #2D2929;\n}\n\n.footer-content {\n  color: #FDFAFA;\n  font-size: 24px;\n  margin-top: 20px;\n  margin-left: 12px;\n  margin-right: 12px;\n}\n\ni {\n  -webkit-transition: all .2s ease-in-out;\n  transition: all .2s ease-in-out;\n}\n\ni:hover { \n  -webkit-transform: scale(1.5); \n          transform: scale(1.5); \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSx1Q0FBK0I7RUFBL0IsK0JBQStCO0FBQ2pDOztBQUVBO0VBQ0UsNkJBQXFCO1VBQXJCLHFCQUFxQjtBQUN2QiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb290ZXIge1xuICBoZWlnaHQ6IDk2cHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyRDI5Mjk7XG59XG5cbi5mb290ZXItY29udGVudCB7XG4gIGNvbG9yOiAjRkRGQUZBO1xuICBmb250LXNpemU6IDI0cHg7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG4gIG1hcmdpbi1sZWZ0OiAxMnB4O1xuICBtYXJnaW4tcmlnaHQ6IDEycHg7XG59XG5cbmkge1xuICB0cmFuc2l0aW9uOiBhbGwgLjJzIGVhc2UtaW4tb3V0O1xufVxuXG5pOmhvdmVyIHsgXG4gIHRyYW5zZm9ybTogc2NhbGUoMS41KTsgXG59Il19 */");
 
 /***/ }),
 

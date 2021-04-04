@@ -64,11 +64,3 @@ input, textarea {
 .lemon-zest-blue {
     color: #2d2e74 !important;
 }
-
-i {
-    transition: all .2s ease-in-out;
-}
-
-i:hover { 
-    transform: scale(1.5); 
-}
