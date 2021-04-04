@@ -3,36 +3,43 @@
   <div class="row">
     <div class="col">
       <h1>About</h1>
-      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.
-        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.
-        However, the term is also often used in the entertainment business, especially in a business context, for musicians
-        and other performers (although less often for actors). "Artiste" (the French for artist) is a variant used in English
-        in this context, but this use has become rare. Use of the term "artist" to describe writers is valid, but less common,
-        and mostly restricted to contexts like that used in criticism.</p>
+      <p>Lemon Zest is an upcoming festival in the DMV area bringing together fine artists, music acts, and folks in the
+        community. When the world shut down this past year, we wanted a way to give back to the community that made us
+        the artists that we are today. The name Lemon Zest Festival comes from the phrase “when life gives you lemons,
+        you make lemonade.”</p>
+      <p>Lemon Zest is a music and arts festival for all ages. We hope to bring together young budding and seasoned
+        artists together to experience each other’s art and tunes. We also hope to highlight community organizations and
+        businesses whose work we admire and align with our values of joy, community, and eclecticism.</p>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+  <br>
+
+  <div class="row">
+    <div class="col lemon-center">
+      <h1>Meet The Team</h1>
+      <p>The Lemon Zest team is made up of local artists and musicians, who know and are in love with the music and art
+        scene within the DMV area.</p>
     </div>
   </div>
   <div class="row">
-    <div class="col">
-      <h1>Varieties</h1>
-      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]
-        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'
-        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is
-        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and
-        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket
-        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice
-        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is
-        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian
-        cultivar.[16]
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <h1>Nutrition and phytochemicals</h1>
-      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential
-        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]
-        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit
-        juice, and about five times the amount of citric acid found in orange juice.[18]</p>
+    <div *ngFor="let profile of profiles" class="col-sm-12 col-md-4">
+      <div class="card lemon-center d-block pt-5 pb-5 mb-5">
+        <img class="rounded-circle profile mb-3" [src]="profile.profilePath" alt="Sana" style="width:100px">
+        <h2>{{ profile.name }}</h2>
+        <p class="title">{{ profile.role }}</p>
+        <a [href]="profile.facebook">
+          <i class="fa fa-facebook lemon-zest-blue icon-content"></i>
+        </a>
+        <a [href]="profile.instagram">
+          <i class="fa fa-instagram lemon-zest-blue icon-content"></i>
+        </a>
+        <a [href]="profile.twitter">
+          <i class="fa fa-twitter lemon-zest-blue icon-content"></i>
+        </a>
+      </div>
     </div>
   </div>
 </div>
