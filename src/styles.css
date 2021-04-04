@@ -9,12 +9,12 @@
     src: local("Casablanca URW Light"), url(./assets/fonts/Casablanca-URW-Light/Casablanca-URW-Light.ttf) format("truetype");
 }
 
-a, h1, h2 {
+a, h1, h2, label {
     font-family: "Blakely Bold";
     color: #2D2929 !important;
 }
 
-a {
+a, label {
     font-size: 20px;
 }
 
@@ -28,8 +28,14 @@ p {
     font-size: 20px;
 }
 
-input {
+.casablanca {
     font-family: "Casablanca URW Light";
+    font-size: 20px;
+}
+
+input, textarea {
+    font-family: "Casablanca URW Light";
+    width: 100%;
 }
 
 .full-img {
@@ -57,4 +63,12 @@ input {
 
 .lemon-zest-blue {
     color: #2d2e74 !important;
+}
+
+i {
+    transition: all .2s ease-in-out;
+}
+
+i:hover { 
+    transform: scale(1.5); 
 }
