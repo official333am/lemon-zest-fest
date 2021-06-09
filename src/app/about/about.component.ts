@@ -31,6 +31,14 @@ export class AboutComponent implements OnInit {
       role: 'Head of Lemonheads',
       name: 'Rohith',
       twitter: 'https://www.instagram.com/lemonzestfest/'
+    },
+    {
+      facebook: 'https://www.instagram.com/lemonzestfest/',
+      instagram: 'https://www.instagram.com/lemonzestfest/',
+      profilePath: '../../assets/images/profiles/sarwat.jpg',
+      role: 'Lead Meme Queen',
+      name: 'Sarwat',
+      twitter: 'https://www.instagram.com/lemonzestfest/'
     }
   ];
 
