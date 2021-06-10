@@ -20,7 +20,7 @@ export class AboutComponent implements OnInit {
       facebook: 'https://www.facebook.com/michaelquarantillo',
       instagram: 'https://www.instagram.com/therealmikewave/',
       profilePath: '../../assets/images/profiles/mike.jpg',
-      role: 'Sponsorship Coordinator',
+      role: 'Production Lead',
       name: 'Mike',
       twitter: 'https://twitter.com/therealmikewave'
     },
