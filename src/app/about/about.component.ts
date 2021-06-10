@@ -9,36 +9,36 @@ export class AboutComponent implements OnInit {
 
   public profiles = [
     {
-      facebook: 'https://www.instagram.com/lemonzestfest/',
-      instagram: 'https://www.instagram.com/lemonzestfest/',
+      facebook: 'https://www.facebook.com/sana.ras.shah',
+      instagram: 'https://www.instagram.com/sanarshah/',
       profilePath: '../../assets/images/profiles/sana.jpg',
-      role: 'Chief Lemon Zester',
+      role: 'Chief Creative Director',
       name: 'Sana',
-      twitter: 'https://www.instagram.com/lemonzestfest/'
+      twitter: 'https://twitter.com/sanarshah'
     },
     {
-      facebook: 'https://www.instagram.com/lemonzestfest/',
-      instagram: 'https://www.instagram.com/lemonzestfest/',
+      facebook: 'https://www.facebook.com/michaelquarantillo',
+      instagram: 'https://www.instagram.com/therealmikewave/',
       profilePath: '../../assets/images/profiles/mike.jpg',
-      role: 'Executive Lemon Squeezer',
+      role: 'Sponsorship Coordinator',
       name: 'Mike',
-      twitter: 'https://www.instagram.com/lemonzestfest/'
+      twitter: 'https://twitter.com/therealmikewave'
     },
     {
-      facebook: 'https://www.instagram.com/lemonzestfest/',
-      instagram: 'https://www.instagram.com/lemonzestfest/',
+      facebook: 'https://www.facebook.com/rohithjsebastian',
+      instagram: 'https://www.instagram.com/officialblase/',
       profilePath: '../../assets/images/profiles/rohith.jpg',
-      role: 'Head of Lemonheads',
+      role: 'Logistics Director',
       name: 'Rohith',
-      twitter: 'https://www.instagram.com/lemonzestfest/'
+      twitter: 'https://www.twitter.com/officialblase/'
     },
     {
-      facebook: 'https://www.instagram.com/lemonzestfest/',
-      instagram: 'https://www.instagram.com/lemonzestfest/',
+      facebook: 'https://www.facebook.com/sarwat.kazmi.3',
+      instagram: 'https://www.instagram.com/sarwat.kazmi/',
       profilePath: '../../assets/images/profiles/sarwat.jpg',
-      role: 'Lead Meme Queen',
+      role: 'Social Media Producer',
       name: 'Sarwat',
-      twitter: 'https://www.instagram.com/lemonzestfest/'
+      twitter: 'https://twitter.com/sarwhatkazmi'
     }
   ];
 

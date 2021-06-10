@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/team.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>About</h1>\n      <p>Lemon Zest is an upcoming festival in the DMV area bringing together fine artists, music acts, and folks in the\n        community. When the world shut down this past year, we wanted a way to give back to the community that made us\n        the artists that we are today. The name Lemon Zest Festival comes from the phrase “when life gives you lemons,\n        you make lemonade.”</p>\n      <p>Lemon Zest is a music and arts festival for all ages. We hope to bring together young budding and seasoned\n        artists together to experience each other’s art and tunes. We also hope to highlight community organizations and\n        businesses whose work we admire and align with our values of joy, community, and eclecticism.</p>\n    </div>\n  </div>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Meet The Team</h1>\n      <p>The Lemon Zest team is made up of local artists and musicians, who know and are in love with the music and art\n        scene within the DMV area.</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div *ngFor=\"let profile of profiles\" class=\"col-sm-12 col-md-3\">\n      <div class=\"card lemon-center d-block pt-5 pb-5 mb-5\">\n        <img class=\"rounded-circle profile mb-3\" [src]=\"profile.profilePath\" alt=\"Sana\" style=\"width:100px\">\n        <h2>{{ profile.name }}</h2>\n        <p class=\"title\">{{ profile.role }}</p>\n        <a [href]=\"profile.facebook\">\n          <i class=\"fa fa-facebook lemon-zest-blue icon-content\"></i>\n        </a>\n        <a [href]=\"profile.instagram\">\n          <i class=\"fa fa-instagram lemon-zest-blue icon-content\"></i>\n        </a>\n        <a [href]=\"profile.twitter\">\n          <i class=\"fa fa-twitter lemon-zest-blue icon-content\"></i>\n        </a>\n      </div>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/team.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>About</h1>\n      <p>Lemon Zest is an upcoming festival in the DMV area bringing together fine artists, music acts, and folks in the\n        community. When the world shut down this past year, we wanted a way to give back to the community that made us\n        the artists that we are today. The name Lemon Zest Festival comes from the phrase “when life gives you lemons,\n        you make lemonade.”</p>\n      <p>Lemon Zest is a music and arts festival for all ages. We hope to bring together young budding and seasoned\n        artists together to experience each other’s art and tunes. We also hope to highlight community organizations and\n        businesses whose work we admire and align with our values of joy, community, and eclecticism.</p>\n    </div>\n  </div>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Meet The Team</h1>\n      <p>The Lemon Zest team is made up of local artists and musicians, who know and are in love with the music and art\n        scene within the DMV area.</p>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div *ngFor=\"let profile of profiles\" class=\"col-sm-12 col-md-3\">\n      <div class=\"card lemon-center d-block pt-5 pb-5 mb-5\">\n        <img class=\"rounded-circle profile mb-3\" [src]=\"profile.profilePath\" alt=\"Sana\" style=\"width:100px\">\n        <h2>{{ profile.name }}</h2>\n        <p class=\"title\">{{ profile.role }}</p>\n        <a [href]=\"profile.facebook\" target=\"_blank\">\n          <i class=\"fa fa-facebook lemon-zest-blue icon-content\"></i>\n        </a>\n        <a [href]=\"profile.instagram\" target=\"_blank\">\n          <i class=\"fa fa-instagram lemon-zest-blue icon-content\"></i>\n        </a>\n        <a [href]=\"profile.twitter\" target=\"_blank\">\n          <i class=\"fa fa-twitter lemon-zest-blue icon-content\"></i>\n        </a>\n      </div>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/contact.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Contact</h1>\n      <p>If you have any inquiries regarding Lemon Zest, feel free to reach out at any time!</p>\n    </div>\n  </div>\n\n  <form id=\"contact\" action=\"https://formspree.io/f/xpzoeoao\" method=\"post\">\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Name</label>\n        <input placeholder=\"Ex: John Smith\" type=\"text\" tabindex=\"1\" name=\"Name\" required>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Email</label>\n        <input placeholder=\"Ex: john@smith.com\" type=\"email\" tabindex=\"2\" name=\"Email\" required>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Phone Number</label>\n        <input placeholder=\"Ex: 301-515-JOHN\" type=\"tel\" tabindex=\"3\" name=\"Phone Number\" required>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Message</label>\n        <textarea placeholder=\"Ex: Hey Lemon Zest Team! You all seem great! Quick question...\" tabindex=\"4\" rows=\"4\" name=\"Message\" required></textarea>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1 lemon-center\">\n        <button class=\"btn btn-primary\" type=\"submit\" id=\"contact-submit\" data-submit=\"...Sending\">\n          Submit\n        </button>\n      </div>\n    </div>\n  </form>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Stay Social</h1>\n      <p>Stay connected with us on social media to get every zesty update!</p>\n      <a href=\"https://www.instagram.com/lemonzestfest/\">\n        <i class=\"fa fa-facebook lemon-zest-blue icon-content\"></i>\n      </a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\">\n        <i class=\"fa fa-instagram lemon-zest-blue icon-content\"></i>\n      </a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\">\n        <i class=\"fa fa-twitter lemon-zest-blue icon-content\"></i>\n      </a>\n    </div>\n  </div>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Email</h1>\n      <p>You can also reach us directly by emailing <a class=\"casablanca lemon-zest-blue\" href=\"mailto:hello@lemonzestfest.com?subject=Lemon%20Zest%20Inquiry&body=Hey%20Lemon%20Zest%20Team!%20You%20all%20seem%20great!%20Quick%20question...\">hello@lemonzestfest.com</a>!</p>\n    </div>\n  </div>\n\n</div>\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/contact.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Contact</h1>\n      <p>If you have any inquiries regarding Lemon Zest, feel free to reach out at any time!</p>\n    </div>\n  </div>\n\n  <form id=\"contact\" action=\"https://formspree.io/f/xpzoeoao\" method=\"post\">\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Name</label>\n        <input placeholder=\"Ex: John Smith\" type=\"text\" tabindex=\"1\" name=\"Name\" required>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Email</label>\n        <input placeholder=\"Ex: john@smith.com\" type=\"email\" tabindex=\"2\" name=\"Email\" required>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Phone Number</label>\n        <input placeholder=\"Ex: 301-515-JOHN\" type=\"tel\" tabindex=\"3\" name=\"Phone Number\" required>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1\">\n        <label>Message</label>\n        <textarea placeholder=\"Ex: Hey Lemon Zest Team! You all seem great! Quick question...\" tabindex=\"4\" rows=\"4\" name=\"Message\" required></textarea>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-10 offset-1 lemon-center\">\n        <button class=\"btn btn-primary\" type=\"submit\" id=\"contact-submit\" data-submit=\"...Sending\">\n          Submit\n        </button>\n      </div>\n    </div>\n  </form>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Stay Social</h1>\n      <p>Stay connected with us on social media to get every zesty update!</p>\n      <a href=\"https://www.facebook.com/lemonzestfest/\" target=\"_blank\">\n        <i class=\"fa fa-facebook lemon-zest-blue icon-content\"></i>\n      </a>\n      <a href=\"https://www.instagram.com/lemonzestfest/\" target=\"_blank\">\n        <i class=\"fa fa-instagram lemon-zest-blue icon-content\"></i>\n      </a>\n      <a href=\"https://www.twitter.com/lemonzestfest/\" target=\"_blank\">\n        <i class=\"fa fa-twitter lemon-zest-blue icon-content\"></i>\n      </a>\n    </div>\n  </div>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Email</h1>\n      <p>You can also reach us directly by emailing <a class=\"casablanca lemon-zest-blue\" href=\"mailto:hello@lemonzestfest.com?subject=Lemon%20Zest%20Inquiry&body=Hey%20Lemon%20Zest%20Team!%20You%20all%20seem%20great!%20Quick%20question...\">hello@lemonzestfest.com</a>!</p>\n    </div>\n  </div>\n\n</div>\n<app-footer></app-footer>");
 
 /***/ }),
 
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"header-footer-margin\"></div>\n<div class=\"footer text-center\">\n  <a href=\"https://www.instagram.com/lemonzestfest/\">\n    <i class=\"fa fa-facebook footer-content\"></i>\n  </a>\n  <a href=\"https://www.instagram.com/lemonzestfest/\">\n    <i class=\"fa fa-instagram footer-content\"></i>\n  </a>\n  <a href=\"https://www.instagram.com/lemonzestfest/\">\n    <i class=\"fa fa-twitter footer-content\"></i>\n  </a>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"header-footer-margin\"></div>\n<div class=\"footer text-center\">\n  <a href=\"https://www.facebook.com/lemonzestfest/\" target=\"_blank\">\n    <i class=\"fa fa-facebook footer-content\"></i>\n  </a>\n  <a href=\"https://www.instagram.com/lemonzestfest/\" target=\"_blank\">\n    <i class=\"fa fa-instagram footer-content\"></i>\n  </a>\n  <a href=\"https://www.twitter.com/lemonzestfest/\" target=\"_blank\">\n    <i class=\"fa fa-twitter footer-content\"></i>\n  </a>\n</div>");
 
 /***/ }),
 
@@ -425,36 +425,36 @@ let AboutComponent = class AboutComponent {
     constructor() {
         this.profiles = [
             {
-                facebook: 'https://www.instagram.com/lemonzestfest/',
-                instagram: 'https://www.instagram.com/lemonzestfest/',
+                facebook: 'https://www.facebook.com/sana.ras.shah',
+                instagram: 'https://www.instagram.com/sanarshah/',
                 profilePath: '../../assets/images/profiles/sana.jpg',
-                role: 'Chief Lemon Zester',
+                role: 'Chief Creative Director',
                 name: 'Sana',
-                twitter: 'https://www.instagram.com/lemonzestfest/'
+                twitter: 'https://twitter.com/sanarshah'
             },
             {
-                facebook: 'https://www.instagram.com/lemonzestfest/',
-                instagram: 'https://www.instagram.com/lemonzestfest/',
+                facebook: 'https://www.facebook.com/michaelquarantillo',
+                instagram: 'https://www.instagram.com/therealmikewave/',
                 profilePath: '../../assets/images/profiles/mike.jpg',
-                role: 'Executive Lemon Squeezer',
+                role: 'Sponsorship Coordinator',
                 name: 'Mike',
-                twitter: 'https://www.instagram.com/lemonzestfest/'
+                twitter: 'https://twitter.com/therealmikewave'
             },
             {
-                facebook: 'https://www.instagram.com/lemonzestfest/',
-                instagram: 'https://www.instagram.com/lemonzestfest/',
+                facebook: 'https://www.facebook.com/rohithjsebastian',
+                instagram: 'https://www.instagram.com/officialblase/',
                 profilePath: '../../assets/images/profiles/rohith.jpg',
-                role: 'Head of Lemonheads',
+                role: 'Logistics Director',
                 name: 'Rohith',
-                twitter: 'https://www.instagram.com/lemonzestfest/'
+                twitter: 'https://www.twitter.com/officialblase/'
             },
             {
-                facebook: 'https://www.instagram.com/lemonzestfest/',
-                instagram: 'https://www.instagram.com/lemonzestfest/',
+                facebook: 'https://www.facebook.com/sarwat.kazmi.3',
+                instagram: 'https://www.instagram.com/sarwat.kazmi/',
                 profilePath: '../../assets/images/profiles/sarwat.jpg',
-                role: 'Lead Meme Queen',
+                role: 'Social Media Producer',
                 name: 'Sarwat',
-                twitter: 'https://www.instagram.com/lemonzestfest/'
+                twitter: 'https://twitter.com/sarwhatkazmi'
             }
         ];
     }
