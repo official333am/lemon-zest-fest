@@ -14,6 +14,7 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { FooterComponent } from './footer/footer.component';
 import { SourPatchComponent } from './sour-patch/sour-patch.component';
+import { CommunityComponent } from './community/community.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SourPatchComponent } from './sour-patch/sour-patch.component';
     NavigationBarComponent,
     SponsorsComponent,
     FooterComponent,
-    SourPatchComponent
+    SourPatchComponent,
+    CommunityComponent
   ],
   imports: [
     AppRoutingModule,

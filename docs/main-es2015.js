@@ -62,6 +62,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/community/community.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/community/community.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/community.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <h1>Ripe Talent</h1>\n      <p>Lemon Zest is dedicated to putting a spotlight on local artists in the DMV area. Here are a few of our favorites in one playlist.</p>\n      <div class=\"text-center\">\n        <iframe src=\"https://open.spotify.com/embed/playlist/66YM92JK6VvUZ8FVpSTN6K\" width=\"100%\" height=\"500\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      </div>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/contact/contact.component.html":
 /*!**************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/contact/contact.component.html ***!
@@ -110,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\">\n    <a id=\"logo-text\" class=\"mr-1\" routerLink=\"/\">Lemon Zest</a>\n    <a routerLink=\"sour-patch\"><img id=\"lemon\" src=\"./../../assets/images/logos/just-lemon.png\" width=\"40\" height=\"40\" alt=\"\" (click)=\"spinLemon()\"></a>\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div *ngIf=\"isToggleEnabled\" class=\"navbar-nav\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n    <div *ngIf=\"!isToggleEnabled\" class=\"navbar-nav\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand\">\n    <a id=\"logo-text\" class=\"mr-1\" routerLink=\"/\">Lemon Zest</a>\n    <a routerLink=\"sour-patch\"><img id=\"lemon\" src=\"./../../assets/images/logos/just-lemon.png\" width=\"40\" height=\"40\" alt=\"\" (click)=\"spinLemon()\"></a>\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div *ngIf=\"isToggleEnabled\" class=\"navbar-nav\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"community\">Community</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n    <div *ngIf=\"!isToggleEnabled\" class=\"navbar-nav\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"community\">Community</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>");
 
 /***/ }),
 
@@ -488,10 +501,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 /* harmony import */ var _artists_artists_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./artists/artists.component */ "./src/app/artists/artists.component.ts");
-/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sour-patch/sour-patch.component */ "./src/app/sour-patch/sour-patch.component.ts");
-/* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
+/* harmony import */ var _community_community_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./community/community.component */ "./src/app/community/community.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sour-patch/sour-patch.component */ "./src/app/sour-patch/sour-patch.component.ts");
+/* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
 
 
  // CLI imports router
@@ -501,13 +515,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 const routes = [
     { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"], data: { state: 'about' } },
     { path: 'artists', component: _artists_artists_component__WEBPACK_IMPORTED_MODULE_4__["ArtistsComponent"], data: { state: 'artists' } },
-    { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"], data: { state: 'contact' } },
-    { path: 'sour-patch', component: _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_7__["SourPatchComponent"], data: { state: 'sour-patch' } },
-    { path: 'sponsors', component: _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_8__["SponsorsComponent"], data: { state: 'sponsors' } },
-    { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], data: { state: '/' } },
+    { path: 'community', component: _community_community_component__WEBPACK_IMPORTED_MODULE_5__["CommunityComponent"], data: { state: 'community' } },
+    { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"], data: { state: 'contact' } },
+    { path: 'sour-patch', component: _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_8__["SourPatchComponent"], data: { state: 'sour-patch' } },
+    { path: 'sponsors', component: _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_9__["SponsorsComponent"], data: { state: 'sponsors' } },
+    { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], data: { state: '/' } },
 ];
 // configures NgModule imports and exports
 let AppRoutingModule = class AppRoutingModule {
@@ -621,6 +637,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
 /* harmony import */ var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./sour-patch/sour-patch.component */ "./src/app/sour-patch/sour-patch.component.ts");
+/* harmony import */ var _community_community_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./community/community.component */ "./src/app/community/community.component.ts");
+
 
 
 
@@ -649,7 +667,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_11__["NavigationBarComponent"],
             _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_12__["SponsorsComponent"],
             _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
-            _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_14__["SourPatchComponent"]
+            _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_14__["SourPatchComponent"],
+            _community_community_component__WEBPACK_IMPORTED_MODULE_15__["CommunityComponent"]
         ],
         imports: [
             _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
@@ -746,6 +765,50 @@ ArtistsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./artists.component.css */ "./src/app/artists/artists.component.css")).default]
     })
 ], ArtistsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/community/community.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/community/community.component.css ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbW11bml0eS9jb21tdW5pdHkuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/community/community.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/community/community.component.ts ***!
+  \**************************************************/
+/*! exports provided: CommunityComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CommunityComponent", function() { return CommunityComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let CommunityComponent = class CommunityComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+CommunityComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-community',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./community.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/community/community.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./community.component.css */ "./src/app/community/community.component.css")).default]
+    })
+], CommunityComponent);
 
 
 
