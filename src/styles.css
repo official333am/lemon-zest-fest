@@ -73,11 +73,13 @@ input, textarea {
     font-family: "Blakely Bold" !important;
     background-color: #73A857 !important;
     border-color: #73A857 !important;
+    transition: all .2s ease-in-out;
 }
 
 .btn-primary:hover {
     background-color: #68974e !important;
     border-color: #68974e !important;
+    transform: scale(1.1); 
 }
 
 .lemon-zest-blue {
