@@ -85,7 +85,7 @@
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Artists</h1>\n      <p>Are you interested in participating in Lemon Zest 2022? We started this festival with the artists of the DMV\n        area at the forefront. After nearly two years of no shows or exhibits, we wanted to create the perfect\n        opportunity for artists to get back into the swing of things! If you're looking to be a performing or gallery\n        artist, here's your chance! Below we have provided two forms to gauge interest and ultimately choose who will be\n        selected to participate.</p>\n    </div>\n  </div>\n</div>\n\n<div class=\"container mt-5\">\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#performing\">Performing Artist</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" data-toggle=\"tab\" href=\"#gallery\">Gallery Artist</a>\n    </li>\n  </ul>\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div id=\"performing\" class=\"container tab-pane active text-center\"><br>\n      <iframe\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfD--8QIHkBvIG3vO6IYNZbUltzxiEOBMOeP66u_gxeqQRoow/viewform?embedded=true\"\n        width=\"100%\" [height]=\"iframeHeights.pHeight\" frameborder=\"0\">Loading…</iframe>\n    </div>\n    <div id=\"gallery\" class=\"container tab-pane fade text-center\"><br>\n      <iframe\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfO0CU8oopxEPa6w5DmevqpQWsEjacHqtsxC4anHeYVBIH9VA/viewform?embedded=true\"\n        width=\"100%\" [height]=\"iframeHeights.gHeight\" frameborder=\"0\">Loading…</iframe>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<img src=\"../../assets/images/banners/artist.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Artists</h1>\n      <p>Are you interested in participating in Lemon Zest 2022? We started this festival with the artists of the DMV\n        area at the forefront. After nearly two years of no shows or exhibits, we wanted to create the perfect\n        opportunity for artists to get back into the swing of things! If you're looking to be a performing or gallery\n        artist, here's your chance! Below we have provided two forms to gauge interest and ultimately choose who will be\n        selected to participate.</p>\n    </div>\n  </div>\n</div>\n\n<div class=\"container mt-5\">\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#performing\">Performing Artist</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" data-toggle=\"tab\" href=\"#gallery\">Gallery Artist</a>\n    </li>\n  </ul>\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div id=\"performing\" class=\"container tab-pane active text-center\"><br>\n      <iframe\n        scrolling=\"no\"\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfD--8QIHkBvIG3vO6IYNZbUltzxiEOBMOeP66u_gxeqQRoow/viewform?embedded=true\"\n        width=\"100%\" [height]=\"iframeHeights.pHeight\" frameborder=\"0\">Loading…</iframe>\n    </div>\n    <div id=\"gallery\" class=\"container tab-pane fade text-center\"><br>\n      <iframe\n        scrolling=\"no\"\n        src=\"https://docs.google.com/forms/d/e/1FAIpQLSfO0CU8oopxEPa6w5DmevqpQWsEjacHqtsxC4anHeYVBIH9VA/viewform?embedded=true\"\n        width=\"100%\" [height]=\"iframeHeights.gHeight\" frameborder=\"0\">Loading…</iframe>\n    </div>\n  </div>\n</div>\n<app-footer></app-footer>";
     /***/
   },
 
@@ -1334,33 +1334,33 @@
       get iframeHeights() {
         if ($(window).width() <= 350) {
           return {
-            pHeight: 3650,
-            gHeight: 2700
+            pHeight: 3440,
+            gHeight: 2390
           };
         } else if ($(window).width() <= 400) {
           return {
-            pHeight: 3350,
-            gHeight: 2400
+            pHeight: 3125,
+            gHeight: 2130
           };
         } else if ($(window).width() <= 450) {
           return {
-            pHeight: 3250,
-            gHeight: 2300
+            pHeight: 2995,
+            gHeight: 2070
           };
         } else if ($(window).width() <= 600) {
           return {
-            pHeight: 2950,
-            gHeight: 2100
+            pHeight: 2770,
+            gHeight: 1890
           };
         } else if ($(window).width() <= 1024) {
           return {
-            pHeight: 2750,
-            gHeight: 1900
+            pHeight: 2610,
+            gHeight: 1760
           };
         } else {
           return {
-            pHeight: 2750,
-            gHeight: 1900
+            pHeight: 2610,
+            gHeight: 1760
           };
         } // return {
         //   pHeight: (Math.ceil($(window).width()/50)*50)*(-2.8)+4630,

@@ -17,33 +17,33 @@ export class ArtistsComponent implements OnInit {
   public get iframeHeights(): any {
     if ($(window).width() <= 350) {
       return {
-        pHeight: 3650,
-        gHeight: 2700
+        pHeight: 3440,
+        gHeight: 2390
       };
     } else if ($(window).width() <= 400) {
       return {
-        pHeight: 3350,
-        gHeight: 2400
+        pHeight: 3125,
+        gHeight: 2130
       };
     } else if ($(window).width() <= 450) {
       return {
-        pHeight: 3250,
-        gHeight: 2300
+        pHeight: 2995,
+        gHeight: 2070
       };
     } else if ($(window).width() <= 600) {
       return {
-        pHeight: 2950,
-        gHeight: 2100
+        pHeight: 2770,
+        gHeight: 1890
       };
     } else if ($(window).width() <= 1024) {
       return {
-        pHeight: 2750,
-        gHeight: 1900
+        pHeight: 2610,
+        gHeight: 1760
       };
     } else {
       return {
-        pHeight: 2750,
-        gHeight: 1900
+        pHeight: 2610,
+        gHeight: 1760
       };
     }
     // return {
