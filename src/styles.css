@@ -71,8 +71,13 @@ input, textarea {
 
 .btn-primary {
     font-family: "Blakely Bold" !important;
-    background-color: #2D2929 !important;
-    border-color: #2D2929 !important;
+    background-color: #73A857 !important;
+    border-color: #73A857 !important;
+}
+
+.btn-primary:hover {
+    background-color: #B3E891 !important;
+    border-color: #B3E891 !important;
 }
 
 .lemon-zest-blue {
