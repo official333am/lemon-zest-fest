@@ -74,3 +74,7 @@ img {
 #logo-text:hover {
   text-decoration: none!important;
 }
+
+.mt-2 {
+  margin-top: 0.6rem!important
+}
