@@ -51,7 +51,8 @@ a {
 
 .fa-bars {
   color: #f9ed27 !important;
-  font-size: 28px;
+  font-size: 32px;
+  margin-top: -4px;
 }
 
 .bg-light {
