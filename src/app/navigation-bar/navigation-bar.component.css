@@ -52,7 +52,7 @@ a {
 .fa-bars {
   color: #f9ed27 !important;
   font-size: 32px;
-  margin-top: -5px;
+  margin-top: -2px;
 }
 
 .bg-light {
@@ -76,5 +76,5 @@ img {
 }
 
 .mt-2 {
-  margin-top: 0.6rem!important
+  margin-top: 0.8rem!important
 }
