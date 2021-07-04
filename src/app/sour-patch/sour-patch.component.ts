@@ -31,6 +31,7 @@ export class SourPatchComponent implements OnInit {
 
     (<HTMLInputElement>document.getElementById("sour-patch-message")).value = "";
     (<HTMLInputElement>document.getElementById("sour-patch-name")).value = "";
+    (<HTMLInputElement>document.getElementById("form-bottom")).scrollIntoView();
   }
 
 }
