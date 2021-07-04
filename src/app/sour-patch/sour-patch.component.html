@@ -1,39 +1,62 @@
 <img src="../../assets/images/banners/sour-patch.jpg" alt="Sana's Logo" class="full-img mb-4">
 <div class="container">
   <div class="row">
-    <div class="col">
-      <h1>You've made it!</h1>
-      <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art.
-        The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.
-        However, the term is also often used in the entertainment business, especially in a business context, for musicians
-        and other performers (although less often for actors). "Artiste" (the French for artist) is a variant used in English
-        in this context, but this use has become rare. Use of the term "artist" to describe writers is valid, but less common,
-        and mostly restricted to contexts like that used in criticism.</p>
+    <div class="col lemon-center">
+      <h1>You made it!</h1>
+      <p>Drop a message below for the other lemon heads that find their here!</p>
     </div>
   </div>
+
+  <form id="sour-patch-form">
+    <div class="row">
+      <div class="col-10 offset-1">
+        <label>Name</label>
+        <input id="sour-patch-name" placeholder="Ex: John Smith" type="text" tabindex="1" name="Name" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <label>Message</label>
+        <textarea id="sour-patch-message" placeholder="Ex: Hey Lemon Zest Team! You all seem great!" tabindex="4" rows="4" name="Message" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1 lemon-center">
+        <button class="btn btn-primary" type="submit" id="contact-submit" data-submit="...Sending">
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <br>
+  <hr>
+  <br>
+
   <div class="row">
     <div class="col">
-      <h1>Varieties</h1>
-      <p>The 'Bonnie Brae' is oblong, smooth, thin-skinned and seedless.[8] These are mostly grown in San Diego County, USA.[9]
-        The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon,[10] also known as 'Four Seasons'
-        (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is
-        also available as a plant to domestic customers.[11] There is also a pink-fleshed Eureka lemon, with a green and
-        yellow variegated outer skin.[12] The Lisbon lemon is very similar to the Eureka and is the other common supermarket
-        lemon. It is smoother than the Eureka, has thinner skin, and has fewer or no seeds. It generally produces more juice
-        than the Eureka.[13][14] The 'Femminello St. Teresa', or 'Sorrento'[15] is native to Italy. This fruit's zest is
-        high in lemon oils. It is the variety traditionally used in the making of limoncello. The 'Yen Ben' is an Australasian
-        cultivar.[16]
-      </p>
+      <h1>Messages</h1>
     </div>
   </div>
+
   <div class="row">
-    <div class="col">
-      <h1>Nutrition and phytochemicals</h1>
-      <p>Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential
-        nutrients are low in content. Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[17]
-        Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit
-        juice, and about five times the amount of citric acid found in orange juice.[18]</p>
+    <div class="col-12">
+      <div *ngFor="let message of messages | async" class="card d-block pt-5 pb-5 mb-5">
+        <div class="pl-5 pr-5 mb-5">
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="pl-5 pr-5">
+          <span class="lemon-message">{{ message.message }}</span>
+        </div>
+        <div class="text-right mt-5 pl-5 pr-5">
+          <span class="lemon-signature">{{ message.name }}</span>
+        </div>
+        <div class="text-right pl-5 pr-5">
+          <span class="lemon-date">{{ message.date | date: 'medium' }}</span>
+        </div>
+      </div>
     </div>
   </div>
+
 </div>
 <app-footer></app-footer>
