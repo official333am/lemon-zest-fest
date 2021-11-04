@@ -42,7 +42,7 @@ export class AboutComponent implements OnInit {
     },
     {
       facebook: 'https://www.facebook.com/gabriellepisciotta',
-      instagram: 'hhttps://www.instagram.com/gabi_pisciotta/',
+      instagram: 'https://www.instagram.com/gabi_pisciotta/',
       profilePath: '../../assets/images/profiles/gabi',
       role: 'Vibes Manager',
       name: 'Gabi',

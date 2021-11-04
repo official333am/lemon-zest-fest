@@ -925,7 +925,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           twitter: 'https://twitter.com/sarwhatkazmi'
         }, {
           facebook: 'https://www.facebook.com/gabriellepisciotta',
-          instagram: 'hhttps://www.instagram.com/gabi_pisciotta/',
+          instagram: 'https://www.instagram.com/gabi_pisciotta/',
           profilePath: '../../assets/images/profiles/gabi',
           role: 'Vibes Manager',
           name: 'Gabi',
