@@ -19,6 +19,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { FooterComponent } from './footer/footer.component';
 import { SourPatchComponent } from './sour-patch/sour-patch.component';
 import { CommunityComponent } from './community/community.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CommunityComponent } from './community/community.component';
     SponsorsComponent,
     FooterComponent,
     SourPatchComponent,
-    CommunityComponent
+    CommunityComponent,
+    TicketsComponent
   ],
   imports: [
     AppRoutingModule,

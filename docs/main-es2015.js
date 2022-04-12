@@ -123,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand mt-2\">\n    <a routerLink=\"/\"><img src=\"./../../assets/images/logos/lemon-zest-nav-text.png\" height=\"50\"></a>\n    <a routerLink=\"sour-patch\"><img id=\"lemon\" src=\"./../../assets/images/logos/lemon-zest-nav-icon.png\" height=\"50\" alt=\"\" (click)=\"spinLemon()\"></a>\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div *ngIf=\"isToggleEnabled\" class=\"navbar-nav\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"community\">Community</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n    <div *ngIf=\"!isToggleEnabled\" class=\"navbar-nav\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"community\">Community</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Just an image -->\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light sticky\">\n  <a class=\"navbar-brand mt-2\">\n    <a routerLink=\"/\"><img src=\"./../../assets/images/logos/lemon-zest-nav-text.png\" height=\"50\"></a>\n    <a routerLink=\"sour-patch\"><img id=\"lemon\" src=\"./../../assets/images/logos/lemon-zest-nav-icon.png\" height=\"50\" alt=\"\" (click)=\"spinLemon()\"></a>\n  </a>\n  <i class=\"navbar-toggler fa fa-bars\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\"\n    aria-expanded=\"false\" aria-label=\"Toggle navigation\"></i>\n  <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div *ngIf=\"isToggleEnabled\" class=\"navbar-nav\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"tickets\">Tickets</a>\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"community\">Community</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n    <div *ngIf=\"!isToggleEnabled\" class=\"navbar-nav\" data-target=\"#navbarNavAltMarkup\">\n      <a class=\"nav-item nav-link\" routerLink=\"tickets\">Tickets</a>\n      <a class=\"nav-item nav-link\" routerLink=\"artists\">Artists</a>\n      <a class=\"nav-item nav-link\" routerLink=\"community\">Community</a>\n      <a class=\"nav-item nav-link\" routerLink=\"sponsors\">Sponsors</a>\n      <a class=\"nav-item nav-link\" routerLink=\"about\">About</a>\n      <a class=\"nav-item nav-link\" routerLink=\"contact\">Contact</a>\n    </div>\n  </div>\n  <div class=\"progress-container\">\n    <div class=\"progress-bar\" id=\"myBar\"></div>\n  </div>\n</nav>");
 
 /***/ }),
 
@@ -150,6 +150,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<img src=\"../../assets/images/banners/sponsor.jpg\" alt=\"Sana's Logo\" class=\"full-img mb-4\">\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <p>Hey Potential Sponsor!</p>\n      <br>\n      <p>Lemon Zest is an upcoming festival in the DMV area bringing together fine artists, music acts, and folks in the\n        community. When the world shut down this past year, we wanted a way to give back to the community that made us\n        the artists that we are today. The name Lemon Zest Festival comes from the phrase “when life gives you lemons,\n        you make lemonade.”</p>\n      <br>\n      <p>Lemon Zest is a music and arts festival for all ages. We hope to bring together young budding and seasoned\n        artists together to experience each other’s art and tunes. We also hope to highlight community organizations and\n        businesses whose work we admire and align with our values of joy, community, and eclecticism.</p>\n      <br>\n      <p>The Lemon Zest team is made up of local artists and musicians who know and are in love with the music and art\n        scene within the DMV area. We have both performed and hosted events in the region, so we understand the\n        importance of planning an event by and for artists and musicians.</p>\n      <br>\n      <p>We are also partnering with Alex’s Lemonade Stand for this festival. Alex’s Lemonade Stand Foundation (ALSF) is\n        changing the lives of children with cancer by funding impactful research, raising awareness, supporting families\n        and empowering everyone to help cure childhood cancer. Also, Alex’s Lemonade Stand is a 501(c)(3) non-profit\n        organization! A percentage of your donations made to Lemon Zest Fest will benefit Alex’s Lemonade Stand and be\n        <span class=\"font-weight-bold\">tax deductible.</span>\n      </p>\n      <br>\n      <p>We also have the option in our sponsorship tiers to directly sponsor an artist or performer. We understand that\n        all labor, especially creative labor, is valuable and want to fairly compensate our artists and performers.</p>\n      <br>\n      <p>We’d love for you to review the various tiers of sponsorship below. Please let us know if you are interested in\n        becoming an official Lemon Zest Fest sponsor!</p>\n      <br>\n      <p>Thanks,\n        <br>\n        <span class=\"blakely letter-signature\">THE LEMON ZEST FEST TEAM~</span>\n      </p>\n    </div>\n  </div>\n\n  <!-- <br>\n  <hr>\n  <br> -->\n\n  <div class=\"row pt-3 pb-3\">\n    <div class=\"offset-xs-0 offset-md-2 col-xs-12 col-md-8 lemon-center\">\n      <img src=\"../../assets/images/pdf-exports/tiers-graphic.jpg\" alt=\"Sponsorship Packet Page 3\"\n        class=\"w-100\">\n    </div>\n  </div>\n\n  <!-- <br>\n  <hr>\n  <br> -->\n\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>Sponsor an Artist!</h1>\n      <p>One of our values as a festival is community and we believe our artists make up a large part of that community. Separate from our sponsorship package, we are giving our sponsors the opportunity to sponsor an artist (exhibition or musical) so that we can show our appreciation for the artists who bring their vision and sound to the DMV area. We have options for sponsoring musicians based on performance length or based on the number of pieces they exhibit. Inquire more today!</p>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col\">\n      <h1>BE A COMMUNITY PARTNER~</h1>\n      <p>Are you a local business, nonprofit, or organization interested in being involved in the festival experience? <a class=\"casablanca lemon-zest-blue\" href=\"mailto:hello@lemonzestfest.com?subject=Lemon%20Zest%20Inquiry&body=Hey%20Lemon%20Zest%20Team!%20You%20all%20seem%20great!%20Quick%20question...\">Email us today</a> to find out about how you can be a community partner!</p>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col lemon-center\">\n      <a class=\"lemon-zest-blue\" href=\"../../assets/pdfs/lemon-zest-sponsorship-packet.pdf\" download>\n        Click here to download our sponsorship packet\n      </a>\n    </div>\n  </div>\n\n  <br>\n  <hr>\n  <br>\n\n  <div class=\"row\">\n    <div class=\"offset-xs-0 offset-md-3 col-xs-12 col-md-6 lemon-center\">\n      <h1 class=\"mb-5\">Current Partners</h1>\n      <a href=\"https://www.alexslemonade.org/mypage/2533258\" target=\"_blank\">\n        <img src=\"../../assets/images/logos/alsf-primary-logo.png\" alt=\"ALSF Primary Logo\"\n          class=\"w-50\">\n      </a>\n    </div>\n  </div>\n</div>\n\n<app-footer></app-footer>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/tickets/tickets.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/tickets/tickets.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"eventbrite-widget-container-204117118797\"></div>\n\n<script src=\"https://www.eventbrite.com/static/widgets/eb_widgets.js\"></script>\n\n<script type=\"text/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        // Required\n        widgetType: 'checkout',\n        eventId: '204117118797',\n        iframeContainerId: 'eventbrite-widget-container-204117118797',\n\n        // Optional\n        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  // Method called when an order has successfully completed\n    });\n</script>\n");
 
 /***/ }),
 
@@ -514,9 +527,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sour-patch/sour-patch.component */ "./src/app/sour-patch/sour-patch.component.ts");
 /* harmony import */ var _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sponsors/sponsors.component */ "./src/app/sponsors/sponsors.component.ts");
+/* harmony import */ var _tickets_tickets_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tickets/tickets.component */ "./src/app/tickets/tickets.component.ts");
 
 
  // CLI imports router
+
 
 
 
@@ -531,6 +546,7 @@ const routes = [
     { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"], data: { state: 'contact' } },
     { path: 'sour-patch', component: _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_8__["SourPatchComponent"], data: { state: 'sour-patch' } },
     { path: 'sponsors', component: _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_9__["SponsorsComponent"], data: { state: 'sponsors' } },
+    { path: 'tickets', component: _tickets_tickets_component__WEBPACK_IMPORTED_MODULE_10__["TicketsComponent"], data: { state: 'tickets' } },
     { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], data: { state: '/' } },
 ];
 // configures NgModule imports and exports
@@ -649,6 +665,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
 /* harmony import */ var _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./sour-patch/sour-patch.component */ "./src/app/sour-patch/sour-patch.component.ts");
 /* harmony import */ var _community_community_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./community/community.component */ "./src/app/community/community.component.ts");
+/* harmony import */ var _tickets_tickets_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./tickets/tickets.component */ "./src/app/tickets/tickets.component.ts");
+
 
 
 
@@ -682,7 +700,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _sponsors_sponsors_component__WEBPACK_IMPORTED_MODULE_15__["SponsorsComponent"],
             _footer_footer_component__WEBPACK_IMPORTED_MODULE_16__["FooterComponent"],
             _sour_patch_sour_patch_component__WEBPACK_IMPORTED_MODULE_17__["SourPatchComponent"],
-            _community_community_component__WEBPACK_IMPORTED_MODULE_18__["CommunityComponent"]
+            _community_community_component__WEBPACK_IMPORTED_MODULE_18__["CommunityComponent"],
+            _tickets_tickets_component__WEBPACK_IMPORTED_MODULE_19__["TicketsComponent"]
         ],
         imports: [
             _app_routing_module__WEBPACK_IMPORTED_MODULE_8__["AppRoutingModule"],
@@ -1166,6 +1185,50 @@ SponsorsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./sponsors.component.css */ "./src/app/sponsors/sponsors.component.css")).default]
     })
 ], SponsorsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/tickets/tickets.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/tickets/tickets.component.css ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RpY2tldHMvdGlja2V0cy5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/tickets/tickets.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/tickets/tickets.component.ts ***!
+  \**********************************************/
+/*! exports provided: TicketsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TicketsComponent", function() { return TicketsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let TicketsComponent = class TicketsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+TicketsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-tickets',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./tickets.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/tickets/tickets.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./tickets.component.css */ "./src/app/tickets/tickets.component.css")).default]
+    })
+], TicketsComponent);
 
 
 

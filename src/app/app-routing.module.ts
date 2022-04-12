@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { SourPatchComponent } from './sour-patch/sour-patch.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent, data: { state: 'about' } },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent, data: { state: 'contact' } },
   { path: 'sour-patch', component: SourPatchComponent, data: { state: 'sour-patch' } },
   { path: 'sponsors', component: SponsorsComponent, data: { state: 'sponsors' } },
+  { path: 'tickets', component: TicketsComponent, data: { state: 'tickets' } },
   { path: '**', component: HomeComponent, data: { state: '/' } },
 ];
 
