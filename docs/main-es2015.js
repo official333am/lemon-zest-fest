@@ -1006,6 +1006,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let NavigationBarComponent = class NavigationBarComponent {
+    //
     constructor(renderer) {
         this.renderer = renderer;
         this.rot = 360;

@@ -1858,6 +1858,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./node_modules/@angular/core/fesm2015/core.js");
 
     var NavigationBarComponent = /*#__PURE__*/function () {
+      //
       function NavigationBarComponent(renderer) {
         _classCallCheck(this, NavigationBarComponent);
 

@@ -10,6 +10,7 @@ declare var $: any;
 export class NavigationBarComponent implements OnInit {
   public lemon: HTMLElement;
   public rot = 360;
+  //
 
   constructor(private renderer: Renderer2) { }
 
