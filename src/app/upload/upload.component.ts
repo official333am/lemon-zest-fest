@@ -47,13 +47,17 @@ export class UploadComponent implements OnInit {
 
     this.firebaseService.addWriteUp({
       date: (new Date()).toString(),
-      writeUp: (<HTMLInputElement>document.getElementById("upload-write-up")).value,
+      writeUp: (<HTMLInputElement>document.getElementById("upload-write-up-1")).value,
+      pullQuote: (<HTMLInputElement>document.getElementById("upload-pull-quote")).value,
+      writeUp2: (<HTMLInputElement>document.getElementById("upload-write-up-2")).value,
       author: (<HTMLInputElement>document.getElementById("upload-author")).value,
       title: (<HTMLInputElement>document.getElementById("upload-title")).value,
       imageURL: this.downloadableURL
     });
 
-    (<HTMLInputElement>document.getElementById("upload-write-up")).value = "";
+    (<HTMLInputElement>document.getElementById("upload-write-up-1")).value = "";
+    (<HTMLInputElement>document.getElementById("upload-pull-quote")).value = "";
+    (<HTMLInputElement>document.getElementById("upload-write-up-2")).value = "";
     (<HTMLInputElement>document.getElementById("upload-author")).value = "";
     (<HTMLInputElement>document.getElementById("upload-title")).value = "";
     this.downloadableURL = "";

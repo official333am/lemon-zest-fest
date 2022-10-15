@@ -12,6 +12,8 @@ export interface Message {
 export interface WriteUp { 
   date: string;
   writeUp: string;
+  pullQuote: string;
+  writeUp2: string;
   author: string;
   title: string;
   imageURL: string;
