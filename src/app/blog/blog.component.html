@@ -19,9 +19,9 @@
               <img *ngIf="writeUp.imageURL" [src]="writeUp.imageURL" class="pb-3" onerror="this.onerror=null;this.src='assets/noimage.jpg';"  width="100%" />
             </div>
             <div class="col-xs-12 col-md-8">
-              <h2 *ngIf="writeUp.title">{{ writeUp.title }}</h2>
+              <h2 *ngIf="writeUp.title" class="pb-3">{{ writeUp.title }}</h2>
               <p *ngIf="writeUp.writeUp" class="lemon-message">{{ writeUp.writeUp }}</p>
-              <h3 *ngIf="writeUp.pullQuote" class="pt-5 pb-5">"{{ writeUp.pullQuote }}"</h3>
+              <h3 *ngIf="writeUp.pullQuote" class="pt-3 pb-3">"{{ writeUp.pullQuote }}"</h3>
               <p *ngIf="writeUp.writeUp2" class="lemon-message">{{ writeUp.writeUp2 }}</p>
             </div>
           </div>
