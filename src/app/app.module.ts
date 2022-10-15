@@ -6,6 +6,9 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import {
+  AngularFireStorageModule,
+} from "@angular/fire/storage";
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,6 +23,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SourPatchComponent } from './sour-patch/sour-patch.component';
 import { CommunityComponent } from './community/community.component';
 import { TicketsComponent } from './tickets/tickets.component';
+import { BlogComponent } from './blog/blog.component';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -33,13 +38,16 @@ import { TicketsComponent } from './tickets/tickets.component';
     FooterComponent,
     SourPatchComponent,
     CommunityComponent,
-    TicketsComponent
+    TicketsComponent,
+    BlogComponent,
+    UploadComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
+    AngularFireStorageModule,
     AngularFirestoreModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],

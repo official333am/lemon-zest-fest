@@ -1,0 +1,34 @@
+.card {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5))
+}
+
+.lemon-quotes {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Casablanca URW Light";
+  color: #D35C42 !important;
+}
+
+.lemon-message {
+  font-size: 24px;
+  font-family: "Casablanca URW Light";
+  color: #2D2929 !important;
+}
+
+.lemon-signature {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Blakely Bold";
+  color: #2D2929 !important;
+}
+
+.lemon-date {
+  font-size: 16px;
+  font-family: "Casablanca URW Light";
+  color: #2D2929 !important;
+}
+
+.fa-quote-left, .fa-quote-right {
+  font-size: 56px;
+  color: #ececec !important;
+}

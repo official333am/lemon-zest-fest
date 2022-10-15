@@ -1,0 +1,38 @@
+<img src="../../assets/images/banners/sour-patch.jpg" alt="Sana's Logo" class="full-img mb-4">
+<div class="container">
+  <div class="row">
+    <div class="col lemon-center">
+      <h1>Blog</h1>
+      <p>Catch up with our latest write-ups to discover up and coming artists!</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div *ngFor="let writeUp of writeUps | async" class="card d-block pt-5 pb-5 mb-5">
+        <div class="pl-5 pr-5 mb-5">
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="pl-5 pr-5">
+          <div class="row">
+            <div class="col-4">
+              <img *ngIf="writeUp.imageURL" [src]="writeUp.imageURL"  onerror="this.onerror=null;this.src='assets/noimage.jpg';"  width="100%" />
+            </div>
+            <div class="col-8">
+              <h2>{{ writeUp.title }}</h2>
+              <span class="lemon-message">{{ writeUp.writeUp }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-right mt-5 pl-5 pr-5">
+          <span class="lemon-signature">{{ writeUp.author }}</span>
+        </div>
+        <div class="text-right pl-5 pr-5">
+          <span class="lemon-date">{{ writeUp.date | date: 'medium' }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

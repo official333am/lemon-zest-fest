@@ -1,0 +1,49 @@
+<img src="../../assets/images/banners/sour-patch.jpg" alt="Sana's Logo" class="full-img mb-4">
+<div class="container">
+  <div class="row">
+    <div class="col lemon-center">
+      <h1>Blog Upload</h1>
+      <p>Upload a cover photo and paste in your write up before submitting!</p>
+    </div>
+  </div>
+
+  <form id="upload-form">
+    <div class="row">
+      <div class="col-10 offset-1">
+        <label>Title</label>
+        <input id="upload-title" placeholder="Ex: Title" type="text" tabindex="1" name="Title" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <label>Write-Up</label>
+        <textarea id="upload-write-up" placeholder="Ex: New Write-Up..." tabindex="4" rows="4" name="Write-Up" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <label>Author</label>
+        <input id="upload-author" placeholder="Ex: John Smith" type="text" tabindex="1" name="Author" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <input type="file" name="file" (input)="onFileChanged($event)"  accept=".jpeg,.jpg,.png,.svg" />
+        <br />
+        <br />
+        <img *ngIf="downloadableURL" [src]="downloadableURL"  onerror="this.onerror=null;this.src='assets/noimage.jpg';"  width="300px" height="300px"/>
+        <br />
+        {{ downloadableURL }}
+      </div>
+    </div>
+    <div class="row" id="form-bottom">
+      <div class="col-10 offset-1 lemon-center">
+        <button class="btn btn-primary" type="submit" id="upload-submit" data-submit="...Sending">
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+
+</div>
+<app-footer></app-footer>
