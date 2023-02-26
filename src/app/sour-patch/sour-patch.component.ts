@@ -25,6 +25,7 @@ export class SourPatchComponent implements OnInit {
 
     this.firebaseService.addMessage({
       date: (new Date()).toString(),
+      timestamp: new Date(),
       message: (<HTMLInputElement>document.getElementById("sour-patch-message")).value,
       name: (<HTMLInputElement>document.getElementById("sour-patch-name")).value
     });

@@ -47,6 +47,7 @@ export class UploadComponent implements OnInit {
 
     this.firebaseService.addWriteUp({
       date: (new Date()).toString(),
+      timestamp: new Date(),
       writeUp: (<HTMLInputElement>document.getElementById("upload-write-up-1")).value,
       pullQuote: (<HTMLInputElement>document.getElementById("upload-pull-quote")).value,
       writeUp2: (<HTMLInputElement>document.getElementById("upload-write-up-2")).value,

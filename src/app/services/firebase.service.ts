@@ -5,12 +5,14 @@ import { map } from 'rxjs/operators';
 
 export interface Message { 
   date: string;
+  timestamp: Date;
   message: string;
   name: string; 
 }
 
 export interface WriteUp { 
   date: string;
+  timestamp: Date;
   writeUp: string;
   pullQuote: string;
   writeUp2: string;
@@ -31,7 +33,7 @@ export class FirebaseService {
   constructor(
     public afs: AngularFirestore
   ) { 
-    this.messageCollection = afs.collection<Message>('messages', ref => ref.orderBy('date', 'desc'));
+    this.messageCollection = afs.collection<Message>('messages', ref => ref.orderBy('timestamp', 'desc'));
     this.messages = this.messageCollection.snapshotChanges().pipe(
       map(actions => actions.map(a => {
         const data = a.payload.doc.data() as Message;
@@ -40,7 +42,7 @@ export class FirebaseService {
       }))
     );
 
-    this.writeUpCollection = afs.collection<WriteUp>('writeUps', ref => ref.orderBy('date', 'desc'));
+    this.writeUpCollection = afs.collection<WriteUp>('writeUps', ref => ref.orderBy('timestamp', 'desc'));
     this.writeUps = this.writeUpCollection.snapshotChanges().pipe(
       map(actions => actions.map(a => {
         const data = a.payload.doc.data() as WriteUp;

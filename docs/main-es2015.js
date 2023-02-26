@@ -479,7 +479,7 @@ let AboutComponent = class AboutComponent {
             {
                 facebook: 'https://www.facebook.com/sana.ras.shah',
                 instagram: 'https://www.instagram.com/sanarshah/',
-                profilePath: '../../assets/images/profiles/sana.jpg',
+                profilePath: '../../assets/images/profiles/sana5k.png',
                 role: 'Chief Creative Director',
                 name: 'Sana',
                 twitter: 'https://twitter.com/sanarshah'
@@ -487,35 +487,19 @@ let AboutComponent = class AboutComponent {
             {
                 facebook: 'https://www.facebook.com/michaelquarantillo',
                 instagram: 'https://www.instagram.com/therealmikewave/',
-                profilePath: '../../assets/images/profiles/mike.jpg',
+                profilePath: '../../assets/images/profiles/mike5k.png',
                 role: 'Production Lead',
                 name: 'Mike',
                 twitter: 'https://twitter.com/therealmikewave'
             },
             {
                 facebook: 'https://www.facebook.com/rohithjsebastian',
-                instagram: 'https://www.instagram.com/officialblase/',
-                profilePath: '../../assets/images/profiles/rohith.jpg',
+                instagram: 'https://www.instagram.com/verifiedblase/',
+                profilePath: '../../assets/images/profiles/blase5k.png',
                 role: 'Logistics Director',
                 name: 'Rohith',
-                twitter: 'https://www.twitter.com/officialblase/'
+                twitter: 'https://www.twitter.com/blase1996/'
             },
-            {
-                facebook: 'https://www.facebook.com/sarwat.kazmi.3',
-                instagram: 'https://www.instagram.com/sarwat.kazmi/',
-                profilePath: '../../assets/images/profiles/sarwat.jpg',
-                role: 'Social Media Producer',
-                name: 'Sarwat',
-                twitter: 'https://twitter.com/sarwhatkazmi'
-            },
-            {
-                facebook: 'https://www.facebook.com/gabriellepisciotta',
-                instagram: 'https://www.instagram.com/gabi_pisciotta/',
-                profilePath: '../../assets/images/profiles/gabi',
-                role: 'Vibes Manager',
-                name: 'Gabi',
-                twitter: 'https://twitter.com/lemonzestfest'
-            }
         ];
     }
     ngOnInit() {
@@ -855,7 +839,7 @@ ArtistsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card {\n  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5))\n}\n\nh2 {\n  font-size: 4rem !important;\n}\n\n.lemon-quotes {\n  font-weight: bold;\n  font-size: 24px;\n  font-family: \"Casablanca URW Light\";\n  color: #D35C42 !important;\n}\n\n.lemon-message {\n  font-size: 24px;\n  font-family: \"Casablanca URW Light\";\n  color: #2D2929 !important;\n}\n\n.lemon-signature {\n  font-weight: bold;\n  font-size: 24px;\n  font-family: \"Blakely Bold\";\n  color: #2D2929 !important;\n}\n\n.lemon-date {\n  font-size: 16px;\n  font-family: \"Casablanca URW Light\";\n  color: #2D2929 !important;\n}\n\n.fa-quote-left, .fa-quote-right {\n  font-size: 56px;\n  color: #ececec !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9ibG9nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtBQUNGOztBQUVBO0VBQ0UsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixtQ0FBbUM7RUFDbkMseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLG1DQUFtQztFQUNuQyx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsZUFBZTtFQUNmLDJCQUEyQjtFQUMzQix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsbUNBQW1DO0VBQ25DLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGVBQWU7RUFDZix5QkFBeUI7QUFDM0IiLCJmaWxlIjoic3JjL2FwcC9ibG9nL2Jsb2cuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkIHtcbiAgZmlsdGVyOiBkcm9wLXNoYWRvdygwLjM1cmVtIDAuMzVyZW0gMC40cmVtIHJnYmEoMCwgMCwgMCwgMC41KSlcbn1cblxuaDIge1xuICBmb250LXNpemU6IDRyZW0gIWltcG9ydGFudDtcbn1cblxuLmxlbW9uLXF1b3RlcyB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBmb250LXNpemU6IDI0cHg7XG4gIGZvbnQtZmFtaWx5OiBcIkNhc2FibGFuY2EgVVJXIExpZ2h0XCI7XG4gIGNvbG9yOiAjRDM1QzQyICFpbXBvcnRhbnQ7XG59XG5cbi5sZW1vbi1tZXNzYWdlIHtcbiAgZm9udC1zaXplOiAyNHB4O1xuICBmb250LWZhbWlseTogXCJDYXNhYmxhbmNhIFVSVyBMaWdodFwiO1xuICBjb2xvcjogIzJEMjkyOSAhaW1wb3J0YW50O1xufVxuXG4ubGVtb24tc2lnbmF0dXJlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgZm9udC1mYW1pbHk6IFwiQmxha2VseSBCb2xkXCI7XG4gIGNvbG9yOiAjMkQyOTI5ICFpbXBvcnRhbnQ7XG59XG5cbi5sZW1vbi1kYXRlIHtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBmb250LWZhbWlseTogXCJDYXNhYmxhbmNhIFVSVyBMaWdodFwiO1xuICBjb2xvcjogIzJEMjkyOSAhaW1wb3J0YW50O1xufVxuXG4uZmEtcXVvdGUtbGVmdCwgLmZhLXF1b3RlLXJpZ2h0IHtcbiAgZm9udC1zaXplOiA1NnB4O1xuICBjb2xvcjogI2VjZWNlYyAhaW1wb3J0YW50O1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".card {\n  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5))\n}\n\nh2 {\n  font-size: 4rem !important;\n}\n\n.lemon-quotes {\n  font-weight: bold;\n  font-size: 24px;\n  font-family: \"Casablanca URW Light\";\n  color: #EE4094 !important;\n}\n\n.lemon-message {\n  font-size: 24px;\n  font-family: \"Casablanca URW Light\";\n  color: #2D2929 !important;\n}\n\n.lemon-signature {\n  font-weight: bold;\n  font-size: 24px;\n  font-family: \"Blakely Bold\";\n  color: #2D2929 !important;\n}\n\n.lemon-date {\n  font-size: 16px;\n  font-family: \"Casablanca URW Light\";\n  color: #2D2929 !important;\n}\n\n.fa-quote-left, .fa-quote-right {\n  font-size: 56px;\n  color: #ececec !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9ibG9nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtBQUNGOztBQUVBO0VBQ0UsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixtQ0FBbUM7RUFDbkMseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLG1DQUFtQztFQUNuQyx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsZUFBZTtFQUNmLDJCQUEyQjtFQUMzQix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsbUNBQW1DO0VBQ25DLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGVBQWU7RUFDZix5QkFBeUI7QUFDM0IiLCJmaWxlIjoic3JjL2FwcC9ibG9nL2Jsb2cuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkIHtcbiAgZmlsdGVyOiBkcm9wLXNoYWRvdygwLjM1cmVtIDAuMzVyZW0gMC40cmVtIHJnYmEoMCwgMCwgMCwgMC41KSlcbn1cblxuaDIge1xuICBmb250LXNpemU6IDRyZW0gIWltcG9ydGFudDtcbn1cblxuLmxlbW9uLXF1b3RlcyB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBmb250LXNpemU6IDI0cHg7XG4gIGZvbnQtZmFtaWx5OiBcIkNhc2FibGFuY2EgVVJXIExpZ2h0XCI7XG4gIGNvbG9yOiAjRUU0MDk0ICFpbXBvcnRhbnQ7XG59XG5cbi5sZW1vbi1tZXNzYWdlIHtcbiAgZm9udC1zaXplOiAyNHB4O1xuICBmb250LWZhbWlseTogXCJDYXNhYmxhbmNhIFVSVyBMaWdodFwiO1xuICBjb2xvcjogIzJEMjkyOSAhaW1wb3J0YW50O1xufVxuXG4ubGVtb24tc2lnbmF0dXJlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgZm9udC1mYW1pbHk6IFwiQmxha2VseSBCb2xkXCI7XG4gIGNvbG9yOiAjMkQyOTI5ICFpbXBvcnRhbnQ7XG59XG5cbi5sZW1vbi1kYXRlIHtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBmb250LWZhbWlseTogXCJDYXNhYmxhbmNhIFVSVyBMaWdodFwiO1xuICBjb2xvcjogIzJEMjkyOSAhaW1wb3J0YW50O1xufVxuXG4uZmEtcXVvdGUtbGVmdCwgLmZhLXF1b3RlLXJpZ2h0IHtcbiAgZm9udC1zaXplOiA1NnB4O1xuICBjb2xvcjogI2VjZWNlYyAhaW1wb3J0YW50O1xufSJdfQ== */");
 
 /***/ }),
 
@@ -1151,13 +1135,13 @@ __webpack_require__.r(__webpack_exports__);
 let FirebaseService = class FirebaseService {
     constructor(afs) {
         this.afs = afs;
-        this.messageCollection = afs.collection('messages', ref => ref.orderBy('date', 'desc'));
+        this.messageCollection = afs.collection('messages', ref => ref.orderBy('timestamp', 'desc'));
         this.messages = this.messageCollection.snapshotChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(actions => actions.map(a => {
             const data = a.payload.doc.data();
             const id = a.payload.doc.id;
             return Object.assign({ id }, data);
         })));
-        this.writeUpCollection = afs.collection('writeUps', ref => ref.orderBy('date', 'desc'));
+        this.writeUpCollection = afs.collection('writeUps', ref => ref.orderBy('timestamp', 'desc'));
         this.writeUps = this.writeUpCollection.snapshotChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(actions => actions.map(a => {
             const data = a.payload.doc.data();
             const id = a.payload.doc.id;
@@ -1193,7 +1177,7 @@ FirebaseService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card {\n    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5))\n}\n\n.lemon-quotes {\n    font-weight: bold;\n    font-size: 24px;\n    font-family: \"Casablanca URW Light\";\n    color: #D35C42 !important;\n}\n\n.lemon-message {\n    font-size: 24px;\n    font-family: \"Casablanca URW Light\";\n    color: #2D2929 !important;\n}\n\n.lemon-signature {\n    font-weight: bold;\n    font-size: 24px;\n    font-family: \"Blakely Bold\";\n    color: #2D2929 !important;\n}\n\n.lemon-date {\n    font-size: 16px;\n    font-family: \"Casablanca URW Light\";\n    color: #2D2929 !important;\n}\n\n.fa-quote-left, .fa-quote-right {\n    font-size: 56px;\n    color: #ececec !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc291ci1wYXRjaC9zb3VyLXBhdGNoLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSTtBQUNKOztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZixtQ0FBbUM7SUFDbkMseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLG1DQUFtQztJQUNuQyx5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtJQUNmLDJCQUEyQjtJQUMzQix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsbUNBQW1DO0lBQ25DLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGVBQWU7SUFDZix5QkFBeUI7QUFDN0IiLCJmaWxlIjoic3JjL2FwcC9zb3VyLXBhdGNoL3NvdXItcGF0Y2guY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkIHtcbiAgICBmaWx0ZXI6IGRyb3Atc2hhZG93KDAuMzVyZW0gMC4zNXJlbSAwLjRyZW0gcmdiYSgwLCAwLCAwLCAwLjUpKVxufVxuXG4ubGVtb24tcXVvdGVzIHtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgZm9udC1mYW1pbHk6IFwiQ2FzYWJsYW5jYSBVUlcgTGlnaHRcIjtcbiAgICBjb2xvcjogI0QzNUM0MiAhaW1wb3J0YW50O1xufVxuXG4ubGVtb24tbWVzc2FnZSB7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIGZvbnQtZmFtaWx5OiBcIkNhc2FibGFuY2EgVVJXIExpZ2h0XCI7XG4gICAgY29sb3I6ICMyRDI5MjkgIWltcG9ydGFudDtcbn1cblxuLmxlbW9uLXNpZ25hdHVyZSB7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIGZvbnQtZmFtaWx5OiBcIkJsYWtlbHkgQm9sZFwiO1xuICAgIGNvbG9yOiAjMkQyOTI5ICFpbXBvcnRhbnQ7XG59XG5cbi5sZW1vbi1kYXRlIHtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgZm9udC1mYW1pbHk6IFwiQ2FzYWJsYW5jYSBVUlcgTGlnaHRcIjtcbiAgICBjb2xvcjogIzJEMjkyOSAhaW1wb3J0YW50O1xufVxuXG4uZmEtcXVvdGUtbGVmdCwgLmZhLXF1b3RlLXJpZ2h0IHtcbiAgICBmb250LXNpemU6IDU2cHg7XG4gICAgY29sb3I6ICNlY2VjZWMgIWltcG9ydGFudDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".card {\n    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5))\n}\n\n.lemon-quotes {\n    font-weight: bold;\n    font-size: 24px;\n    font-family: \"Casablanca URW Light\";\n    color: #EE4094 !important;\n}\n\n.lemon-message {\n    font-size: 24px;\n    font-family: \"Casablanca URW Light\";\n    color: #2D2929 !important;\n}\n\n.lemon-signature {\n    font-weight: bold;\n    font-size: 24px;\n    font-family: \"Blakely Bold\";\n    color: #2D2929 !important;\n}\n\n.lemon-date {\n    font-size: 16px;\n    font-family: \"Casablanca URW Light\";\n    color: #2D2929 !important;\n}\n\n.fa-quote-left, .fa-quote-right {\n    font-size: 56px;\n    color: #ececec !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc291ci1wYXRjaC9zb3VyLXBhdGNoLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSTtBQUNKOztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZixtQ0FBbUM7SUFDbkMseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLG1DQUFtQztJQUNuQyx5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtJQUNmLDJCQUEyQjtJQUMzQix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsbUNBQW1DO0lBQ25DLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGVBQWU7SUFDZix5QkFBeUI7QUFDN0IiLCJmaWxlIjoic3JjL2FwcC9zb3VyLXBhdGNoL3NvdXItcGF0Y2guY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkIHtcbiAgICBmaWx0ZXI6IGRyb3Atc2hhZG93KDAuMzVyZW0gMC4zNXJlbSAwLjRyZW0gcmdiYSgwLCAwLCAwLCAwLjUpKVxufVxuXG4ubGVtb24tcXVvdGVzIHtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgZm9udC1mYW1pbHk6IFwiQ2FzYWJsYW5jYSBVUlcgTGlnaHRcIjtcbiAgICBjb2xvcjogI0VFNDA5NCAhaW1wb3J0YW50O1xufVxuXG4ubGVtb24tbWVzc2FnZSB7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIGZvbnQtZmFtaWx5OiBcIkNhc2FibGFuY2EgVVJXIExpZ2h0XCI7XG4gICAgY29sb3I6ICMyRDI5MjkgIWltcG9ydGFudDtcbn1cblxuLmxlbW9uLXNpZ25hdHVyZSB7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIGZvbnQtZmFtaWx5OiBcIkJsYWtlbHkgQm9sZFwiO1xuICAgIGNvbG9yOiAjMkQyOTI5ICFpbXBvcnRhbnQ7XG59XG5cbi5sZW1vbi1kYXRlIHtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgZm9udC1mYW1pbHk6IFwiQ2FzYWJsYW5jYSBVUlcgTGlnaHRcIjtcbiAgICBjb2xvcjogIzJEMjkyOSAhaW1wb3J0YW50O1xufVxuXG4uZmEtcXVvdGUtbGVmdCwgLmZhLXF1b3RlLXJpZ2h0IHtcbiAgICBmb250LXNpemU6IDU2cHg7XG4gICAgY29sb3I6ICNlY2VjZWMgIWltcG9ydGFudDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1226,6 +1210,7 @@ let SourPatchComponent = class SourPatchComponent {
         event.preventDefault();
         this.firebaseService.addMessage({
             date: (new Date()).toString(),
+            timestamp: new Date(),
             message: document.getElementById("sour-patch-message").value,
             name: document.getElementById("sour-patch-name").value
         });
@@ -1398,6 +1383,7 @@ let UploadComponent = class UploadComponent {
         event.preventDefault();
         this.firebaseService.addWriteUp({
             date: (new Date()).toString(),
+            timestamp: new Date(),
             writeUp: document.getElementById("upload-write-up-1").value,
             pullQuote: document.getElementById("upload-pull-quote").value,
             writeUp2: document.getElementById("upload-write-up-2").value,
