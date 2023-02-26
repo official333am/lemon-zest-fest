@@ -1371,7 +1371,7 @@ let UploadComponent = class UploadComponent {
                 const filePath = `${this.basePath}/${file.name}`; // path at which image will be stored in the firebase storage
                 this.task = this.fireStorage.upload(filePath, file); // upload task
                 // this.progress = this.snapTask.percentageChanges();
-                (yield this.task).ref.getDownloadURL().then(url => { this.downloadableURL = url; }); // <<< url is found here
+                (yield this.task).ref.getDownloadURL().then(url => { this.downloadableURL = url; }); // << url is found here
             }
             else {
                 alert('No images selected');

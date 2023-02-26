@@ -30,7 +30,7 @@ export class UploadComponent implements OnInit {
        // this.progress = this.snapTask.percentageChanges();
  
  
-       (await this.task).ref.getDownloadURL().then(url => {this.downloadableURL = url; });  // <<< url is found here
+       (await this.task).ref.getDownloadURL().then(url => {this.downloadableURL = url; });  // << url is found here
  
  
  
