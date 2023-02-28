@@ -3,16 +3,16 @@
 }
 
 .navbar-brand {
-  color: #f9ed27 !important;
+  color: #2D2929 !important;
 }
 
 .nav-item:hover {
-  background: #f9ed27 !important;
-  color: #2d2e74 !important;
+  background: #2D2929 !important;
+  color: #f9ed27 !important;
 }
 
 .navbar-toggler {
-  /* background: #f9ed27 !important; */
+  /* background: #2D2929 !important; */
   border-color: transparent !important;
 }
 
@@ -20,7 +20,7 @@
 .progress-container {
   width: 100%;
   height: 4px;
-  background: #2d2e74 !important;
+  background: #EE95AD !important;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -32,7 +32,7 @@
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 4px;
-  background: #f9ed27 !important;
+  background: #2D2929 !important;
   width: 0%;
   -webkit-overflow-scrolling: touch !important;
   
@@ -46,17 +46,19 @@
 }
 
 a {
-  color: #f9ed27 !important;
+  color: #2D2929 !important;
+  /* color: #FDFAFA !important;
+  text-shadow: -1px 0 #2D2929, 0 1px #2D2929, 1px 0 #2D2929, 0 -1px #2D2929; */
 }
 
 .fa-bars {
-  color: #f9ed27 !important;
+  color: #2D2929 !important;
   font-size: 32px;
   margin-top: -2px;
 }
 
 .bg-light {
-  background: #2d2e74 !important;
+  background: #EE95AD !important;
 }
 
 img {
