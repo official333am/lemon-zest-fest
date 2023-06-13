@@ -11,7 +11,7 @@
     <div class="col-12">
       <div *ngFor="let writeUp of writeUps | async" class="card d-block pt-5 pb-5 mb-5">
         <div class="pl-5 pr-5 mb-5">
-          <i class="fa fa-quote-left"></i>
+          <i id="{{ formatTitle(writeUp.title) }}" class="fa fa-quote-left"></i>
         </div>
         <div class="pl-5 pr-5">
           <div class="row">

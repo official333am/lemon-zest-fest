@@ -19,4 +19,17 @@ export class BlogComponent implements OnInit {
   ngOnInit() {
   }
 
+  ngAfterViewInit() {
+    setTimeout(function(){
+      var url = new URL(window.location.href);
+      var scrollTo = url.href.split('?scrollTo=')[1];
+      console.log(scrollTo)
+      document.getElementById(scrollTo).scrollIntoView({behavior: 'smooth'}); 
+    }, 1000);
+  }
+
+  formatTitle(title: string) {
+    return title.replace(/[^A-Za-z0-9]+/g, '-').toLowerCase()
+  }
+
 }
